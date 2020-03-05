@@ -13,11 +13,11 @@
 .navbar-mini {
     height: 50px !important;
     border-top: 0.1px solid $navbar-border-color !important;
-}
 
-.navbar-mini .nav-link {
-    padding-left: 0px !important;
-    margin-right: 20px;
+    .nav-link {
+        padding-left: 0px !important;
+        margin-right: 20px;
+    }
 }
 
 .navbar-scroll {
@@ -26,9 +26,9 @@
     -webkit-transition: ease all 1s;
     -moz-transition: ease all 1s;
     -o-transition: ease all 1s;
-}
 
-.navbar-scroll .navbar-brand,
-.navbar-scroll .navbar-nav {
-    display: none;
+    .navbar-brand,
+    .navbar-nav {
+        display: none;
+    }
 }
