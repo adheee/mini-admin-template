@@ -1,77 +1,72 @@
-.navbar {
-    height: 70px !important;
-    transition: ease all 1s;
-    -webkit-transition: ease all 1s;
-    -moz-transition: ease all 1s;
-    -o-transition: ease all 1s;
-}
-
-.navbar-mini {
-    height: 50px !important;
-    border-top: 0.1px solid rgb(83, 83, 83) !important;
-}
-
-.navbar-mini .nav-link {
-    padding-left: 0px !important;
-    margin-right: 20px;
-}
-
-.bg-secondary {
-    background-color: rgb(236, 236, 236) !important;
-}
-
-.navbar-scroll {
-    height: 0 !important;
-    transition: ease all 1s;
-    -webkit-transition: ease all 1s;
-    -moz-transition: ease all 1s;
-    -o-transition: ease all 1s;
-}
-
-.navbar-scroll .navbar-brand,
-.navbar-scroll .navbar-nav {
-    display: none;
-}
-
 /* dark navbar */
 .navbar-brand,
 .navbar-brand:hover {
-    color: rgb(226, 226, 226);
+  color: #ececec;
 }
 
 .bg-hitam,
 .bg-hitam .navbar-nav a,
 .bg-hitam .dropdown-menu {
-    background-color: #303236 !important;
-    color: #686a6e !important;
+  background-color: #303236 !important;
+  color: #686a6e !important;
 }
 
 /* end dark navbar */
-
 /* navbar-orange */
 .navbar-orange .navbar-nav a:hover {
-    color: rgb(255, 187, 28) !important;
-    transition: 0.5s;
+  color: #ffbb1c !important;
+  transition: 0.5s;
 }
 
 .navbar-orange .dropdown-menu a:hover {
-    color: rgb(255, 187, 28) !important;
+  color: #ffbb1c !important;
 }
 
 /* end navbar-orange */
-
 /* navbar-biru */
 .navbar-biru .navbar-nav a:hover {
-    color: rgb(56, 182, 255) !important;
-    transition: 0.5s;
+  color: #38b6ff !important;
+  transition: 0.5s;
 }
 
 .navbar-biru .dropdown-menu a:hover {
-    color: rgb(56, 182, 255) !important;
+  color: #38b6ff !important;
 }
 
 /* end navbar-biru */
-
-body {
-    height: 1000px;
+.navbar {
+  height: 70px !important;
+  transition: ease all 1s;
+  -webkit-transition: ease all 1s;
+  -moz-transition: ease all 1s;
+  -o-transition: ease all 1s;
 }
+
+.navbar-mini {
+  height: 50px !important;
+  border-top: 0.1px solid #535353 !important;
+}
+
+.navbar-mini .nav-link {
+  padding-left: 0px !important;
+  margin-right: 20px;
+}
+
+.navbar-scroll {
+  height: 0 !important;
+  transition: ease all 1s;
+  -webkit-transition: ease all 1s;
+  -moz-transition: ease all 1s;
+  -o-transition: ease all 1s;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .navbar-nav {
+  display: none;
+}
+
+.content {
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

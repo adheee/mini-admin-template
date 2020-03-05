@@ -1,0 +1,34 @@
+@import 'dark-navbar';
+@import 'navbar-color-orange';
+@import 'navbar-color-blue';
+
+.navbar {
+    height: 70px !important;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.navbar-mini {
+    height: 50px !important;
+    border-top: 0.1px solid $navbar-border-color !important;
+}
+
+.navbar-mini .nav-link {
+    padding-left: 0px !important;
+    margin-right: 20px;
+}
+
+.navbar-scroll {
+    height: 0 !important;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .navbar-nav {
+    display: none;
+}

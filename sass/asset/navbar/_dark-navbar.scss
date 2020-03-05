@@ -1,0 +1,14 @@
+/* dark navbar */
+.navbar-brand,
+.navbar-brand:hover {
+    color: $putih;
+}
+
+.bg-hitam,
+.bg-hitam .navbar-nav a,
+.bg-hitam .dropdown-menu {
+    background-color: $dark !important;
+    color: $dark-menu !important;
+}
+
+/* end dark navbar */

@@ -1,0 +1,11 @@
+/* navbar-orange */
+.navbar-orange .navbar-nav a:hover {
+    color: $orange !important;
+    transition: 0.5s;
+}
+
+.navbar-orange .dropdown-menu a:hover {
+    color: $orange !important;
+}
+
+/* end navbar-orange */
