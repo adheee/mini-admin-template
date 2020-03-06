@@ -122,24 +122,38 @@
   color: #f8f8f8;
 }
 
-.card-outline-orange {
+.outline-orange {
   border-color: #ffb300;
   color: #ffb300;
 }
-.card-outline-orange:hover {
+.outline-orange:hover {
   border-color: none;
   background-color: #ffb300;
   color: #303236;
 }
+.outline-orange:hover h5, .outline-orange:hover h4, .outline-orange:hover span {
+  color: #303236;
+  transition: 1s;
+}
+.outline-orange span {
+  color: #ffb300;
+}
 
-.card-outline-ungu {
+.outline-ungu {
   border-color: #b73bf5;
   color: #b73bf5;
 }
-.card-outline-ungu:hover {
+.outline-ungu:hover {
   border-color: none;
   background-color: #b73bf5;
   color: #f8f8f8;
+}
+.outline-ungu:hover h5, .outline-ungu:hover h4, .outline-ungu:hover span {
+  color: #f8f8f8;
+  transition: 1s;
+}
+.outline-ungu span {
+  color: #b73bf5;
 }
 
 .card {
@@ -155,27 +169,72 @@
   min-height: 80px;
   max-width: none;
   min-width: 0px;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 5px 20px #818181;
+  -webkit-box-shadow: 0 5px 20px #818181;
+  -moz-box-shadow: 0 5px 20px #818181;
+  transition: 0.5s;
 }
 
 .card-default {
   height: 150px;
   transition: 0.5s;
 }
-.card-default:hover {
-  box-shadow: 0 5px 20px #818181;
-  -webkit-box-shadow: 0 5px 20px #818181;
-  -moz-box-shadow: 0 5px 20px #818181;
+.card-default:hover span {
+  font-size: 80px;
+  transition: 0.5s;
+}
+.card-default:hover h5, .card-default:hover h4 {
+  color: #f8f8f8;
+  transition: 1s;
+}
+.card-default h5,
+.card-default h4 {
+  color: rgba(255, 255, 255, 0.575);
+  transition: 1s;
+  text-align: right;
+}
+.card-default h5 {
+  font-weight: 700;
+}
+.card-default h4 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.card-default span {
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.575);
+  transition: 0.5s;
+}
+
+.card-outline {
+  height: 150px;
+  transition: 0.5s;
+}
+.card-outline:hover span {
+  font-size: 80px;
+  transition: 0.5s;
+}
+.card-outline h5,
+.card-outline h4 {
+  text-align: right;
+}
+.card-outline h5 {
+  font-weight: 700;
+}
+.card-outline h4 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.card-outline span {
+  font-size: 60px;
   transition: 0.5s;
 }
 
 .card-small {
   height: 100px;
-  transition: 0.5s;
-}
-.card-small:hover {
-  box-shadow: 0 5px 20px #818181;
-  -webkit-box-shadow: 0 5px 20px #818181;
-  -moz-box-shadow: 0 5px 20px #818181;
   transition: 0.5s;
 }
 .card-small p {
