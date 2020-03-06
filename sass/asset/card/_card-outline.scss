@@ -1,0 +1,21 @@
+.card-outline-orange {
+    border-color: $orange;
+    color: $orange;
+
+    &:hover {
+        border-color: none;
+        background-color: $orange;
+        color: $putih;
+    }
+}
+
+.card-outline-ungu {
+    border-color: $ungu;
+    color: $ungu;
+
+    &:hover {
+        border-color: none;
+        background-color: $ungu;
+        color: $putih;
+    }
+}

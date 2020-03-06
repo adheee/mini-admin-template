@@ -1,7 +1,7 @@
 /* dark navbar */
 .navbar-brand,
 .navbar-brand:hover {
-  color: #ececec;
+  color: #f8f8f8;
 }
 
 .bg-hitam,
@@ -24,11 +24,11 @@
 /* end navbar-orange */
 /* navbar-biru */
 .navbar-biru .navbar-nav a:hover {
-  color: #38b6ff !important;
+  color: #3b9ef5 !important;
   transition: 0.5s;
 }
 .navbar-biru .dropdown-menu a:hover {
-  color: #38b6ff !important;
+  color: #3b9ef5 !important;
 }
 
 /* end navbar-biru */
@@ -64,13 +64,83 @@
 .breadcrumb {
   background-color: transparent !important;
   padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0 !important;
 }
 .breadcrumb h3 {
   color: #ffb300;
 }
+.breadcrumb a {
+  color: #303236;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.breadcrumb a:hover {
+  color: #ffb300;
+  transition: 0.5s;
+}
+
+.row {
+  margin-bottom: 15px;
+}
 
 .content {
   margin-top: 150px;
+}
+
+.card-merah {
+  background-color: #f53b66;
+  border: none;
+  color: #f8f8f8;
+}
+
+.card-ungu {
+  background-color: #b73bf5;
+  border: none;
+  color: #f8f8f8;
+}
+
+.card-biru {
+  background-color: #3b9ef5;
+  border: none;
+  color: #f8f8f8;
+}
+
+.card-orange {
+  background-color: #ffb300;
+  border: none;
+  color: #f8f8f8;
+}
+
+.card-outline-orange {
+  border-color: #ffb300;
+  color: #ffb300;
+}
+.card-outline-orange:hover {
+  border-color: none;
+  background-color: #ffb300;
+  color: #f8f8f8;
+}
+
+.card-outline-ungu {
+  border-color: #b73bf5;
+  color: #b73bf5;
+}
+.card-outline-ungu:hover {
+  border-color: none;
+  background-color: #b73bf5;
+  color: #f8f8f8;
+}
+
+.card {
+  height: 150px;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 0 5px 20px #818181;
+  -webkit-box-shadow: 0 5px 20px #818181;
+  -moz-box-shadow: 0 5px 20px #818181;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

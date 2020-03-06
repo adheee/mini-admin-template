@@ -1,0 +1,14 @@
+@import 'card-fill';
+@import 'card-outline';
+
+.card {
+    height: 150px;
+    transition: 0.5s;
+
+    &:hover {
+        box-shadow: 0 5px 20px $shadow;
+        -webkit-box-shadow: 0 5px 20px $shadow;
+        -moz-box-shadow: 0 5px 20px $shadow;
+        transition: 0.5s;
+    }
+}
