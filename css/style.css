@@ -88,6 +88,10 @@
   margin-top: 150px;
 }
 
+.ti {
+  font-weight: 600;
+}
+
 .card-merah {
   background-color: #f53b66;
   border: none;
@@ -109,6 +113,12 @@
 .card-orange {
   background-color: #ffb300;
   border: none;
+  color: #303236;
+}
+
+.card-hijau {
+  background-color: #28a745;
+  border: none;
   color: #f8f8f8;
 }
 
@@ -119,7 +129,7 @@
 .card-outline-orange:hover {
   border-color: none;
   background-color: #ffb300;
-  color: #f8f8f8;
+  color: #303236;
 }
 
 .card-outline-ungu {
@@ -133,14 +143,48 @@
 }
 
 .card {
+  cursor: pointer;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  text-decoration: none solid white;
+  text-align: left;
+  text-indent: 0px;
+  padding: 8px;
+  max-height: none;
+  min-height: 80px;
+  max-width: none;
+  min-width: 0px;
+}
+
+.card-default {
   height: 150px;
   transition: 0.5s;
 }
-.card:hover {
+.card-default:hover {
   box-shadow: 0 5px 20px #818181;
   -webkit-box-shadow: 0 5px 20px #818181;
   -moz-box-shadow: 0 5px 20px #818181;
   transition: 0.5s;
+}
+
+.card-small {
+  height: 100px;
+  transition: 0.5s;
+}
+.card-small:hover {
+  box-shadow: 0 5px 20px #818181;
+  -webkit-box-shadow: 0 5px 20px #818181;
+  -moz-box-shadow: 0 5px 20px #818181;
+  transition: 0.5s;
+}
+.card-small p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.card-small .ti {
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
