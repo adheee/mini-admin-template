@@ -84,6 +84,12 @@ section {
   margin-bottom: 70px;
 }
 
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #686a6e;
+}
+
 .row {
   margin-bottom: 15px;
 }
@@ -119,6 +125,10 @@ section {
 .bg-ungu {
   background-color: #b73bf5;
   color: #f8f8f8;
+}
+
+.bg-dark {
+  background-color: #303236;
 }
 
 .outline-orange {
@@ -145,6 +155,12 @@ section {
   margin-bottom: 70px;
 }
 
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #686a6e;
+}
+
 .row {
   margin-bottom: 15px;
 }
@@ -182,6 +198,10 @@ section {
   color: #f8f8f8;
 }
 
+.bg-dark {
+  background-color: #303236;
+}
+
 .outline-orange {
   border-color: #ffb300;
   color: #ffb300;
@@ -202,7 +222,15 @@ section {
   color: #f8f8f8;
 }
 
-.card {
+.card-without-shadow {
+  max-height: none;
+  min-height: 80px;
+  max-width: none;
+  min-width: 0px;
+  border-radius: 5px;
+}
+
+.card:not([class*=card-without-shadow]) {
   cursor: pointer;
   text-transform: none;
   vertical-align: baseline;
@@ -218,7 +246,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
 }
-.card:hover {
+.card:not([class*=card-without-shadow]):hover {
   box-shadow: 0 5px 20px #818181;
   -webkit-box-shadow: 0 5px 20px #818181;
   -moz-box-shadow: 0 5px 20px #818181;

@@ -1,6 +1,14 @@
 @import '../layout';
 
-.card {
+.card-without-shadow {
+    max-height: none;
+    min-height: 80px;
+    max-width: none;
+    min-width: 0px;
+    border-radius: 5px;
+}
+
+.card:not([class*="card-without-shadow"]) {
     cursor: pointer;
     text-transform: none;
     vertical-align: baseline;

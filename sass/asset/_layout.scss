@@ -2,6 +2,12 @@ section {
     margin-bottom: 70px;
 }
 
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $dark-menu;
+}
+
 .row {
     margin-bottom: 15px;
 }
@@ -37,6 +43,10 @@ section {
 .bg-ungu {
     background-color: $ungu;
     color: $putih;
+}
+
+.bg-dark {
+    background-color: $dark;
 }
 
 .outline-orange {
