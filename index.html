@@ -101,7 +101,7 @@
         <div class="col-md-8">
           <div class="row">
             <div class="col-md-6">
-              <div class="card card-default card-merah">
+              <div class="card card-default bg-merah">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -117,7 +117,7 @@
             </div>
 
             <div class="col-md-6">
-              <div class="card card-default card-biru">
+              <div class="card card-default bg-biru">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -139,11 +139,11 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
-                      <span class="ti ti-music-alt"></span>
+                      <span class="ti ti-money"></span>
                     </div>
                     <div class="col-md-8">
-                      <h5>Favourite Music</h5>
-                      <h4>700</h4>
+                      <h5>Your Money</h5>
+                      <h4>Rp 10.000</h4>
                     </div>
                   </div>
                 </div>
@@ -155,13 +155,29 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
-                      <span class="ti ti-music-alt"></span>
+                      <span class="ti ti-pie-chart"></span>
                     </div>
                     <div class="col-md-8">
-                      <h5>Favourite Music</h5>
-                      <h4>700</h4>
+                      <h5>Visitors In Last Year</h5>
+                      <h4>100</h4>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">
+                    <i class="fas fa-chart-pie mr-1"></i>
+                    Sales
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <canvas id="mychart" height="200"></canvas>
                 </div>
               </div>
             </div>
@@ -172,7 +188,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <div class="card card-small card-hijau">
+              <div class="card card-small bg-hijau">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-3">
@@ -190,7 +206,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <div class="card card-small card-orange">
+              <div class="card card-small bg-orange">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-3">
@@ -208,7 +224,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <div class="card card-small card-merah">
+              <div class="card card-small bg-merah">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-3">
@@ -230,6 +246,12 @@
     <!-- end dashboard content -->
   </div>
 
+  <footer class="fixed-bottom bg-dark">
+    <div class="container">
+      <p>Copyright © 2014-2019 AdminLTE.io. All rights reserved.</p>
+    </div>
+  </footer>
+
 
 
 
@@ -242,8 +264,50 @@
 
 
   <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/Chart.js"></script>
   <script src="js/style.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    var ctx = document.getElementById("mychart").getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 23, 2, 3],
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)',
+            'rgba(255, 159, 64, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255,99,132,1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)',
+            'rgba(255, 159, 64, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+  </script>
+
 </body>
 
 </html>

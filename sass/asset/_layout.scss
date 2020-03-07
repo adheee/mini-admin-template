@@ -1,3 +1,7 @@
+section {
+    margin-bottom: 70px;
+}
+
 .row {
     margin-bottom: 15px;
 }
@@ -8,4 +12,51 @@
 
 .ti {
     font-weight: 600;
+}
+
+.bg-merah {
+    background-color: $merah;
+    color: $putih;
+}
+
+.bg-orange {
+    background-color: $orange;
+    color: $dark;
+}
+
+.bg-biru {
+    background-color: $biru;
+    color: $putih;
+}
+
+.bg-hijau {
+    background-color: $hijau;
+    color: $putih;
+}
+
+.bg-ungu {
+    background-color: $ungu;
+    color: $putih;
+}
+
+.outline-orange {
+    border-color: $orange;
+    color: $orange;
+
+    &:hover {
+        border-color: none;
+        background-color: $orange;
+        color: $dark;
+    }
+}
+
+.outline-ungu {
+    border-color: $ungu;
+    color: $ungu;
+
+    &:hover {
+        border-color: none;
+        background-color: $ungu;
+        color: $putih;
+    }
 }

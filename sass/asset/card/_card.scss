@@ -1,5 +1,4 @@
-@import 'card-fill';
-@import 'card-outline';
+@import '../layout';
 
 .card {
     cursor: pointer;
@@ -15,6 +14,7 @@
     max-width: none;
     min-width: 0px;
     border-radius: 5px;
+    transition: 0.5s;
 
     &:hover {
         box-shadow: 0 5px 20px $shadow;
@@ -26,23 +26,20 @@
 
 .card-default {
     height: 150px;
-    transition: 0.5s;
+    border: none;
 
     &:hover span {
         font-size: 80px;
-        transition: 0.5s;
     }
 
     &:hover h5,
     &:hover h4 {
         color: $putih;
-        transition: 1s;
     }
 
     h5,
     h4 {
         color: rgba(255, 255, 255, 0.575);
-        transition: 1s;
         text-align: right;
     }
 
@@ -64,11 +61,9 @@
 
 .card-outline {
     height: 150px;
-    transition: 0.5s;
 
     &:hover span {
         font-size: 80px;
-        transition: 0.5s;
     }
 
     h5,
@@ -93,7 +88,7 @@
 
 .card-small {
     height: 100px;
-    transition: 0.5s;
+    border: none;
 
     p {
         font-weight: 700;
