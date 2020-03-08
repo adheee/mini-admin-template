@@ -32,6 +32,24 @@
     }
 }
 
+.card-title {
+    display: flex;
+    padding: auto;
+    margin-bottom: 0;
+
+    h5,
+    h6,
+    i,
+    span {
+        font-weight: 900;
+    }
+
+    i,
+    span {
+        margin-right: 10px;
+    }
+}
+
 .card-default {
     height: 150px;
     border: none;

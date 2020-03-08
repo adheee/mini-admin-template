@@ -17,7 +17,7 @@
 <body>
   <!-- navbar -->
   <div class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-orange bg-hitam" id="navbar-top">
+    <nav class="navbar navbar-expand-lg navbar-orange bg-dark" id="navbar-top">
       <div class="container">
         <a class="navbar-brand" href="#">Mini-Admin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -41,7 +41,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-mini navbar-expand-lg navbar-orange bg-hitam">
+    <nav class="navbar navbar-mini navbar-expand-lg navbar-orange bg-dark">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,9 +81,9 @@
   </div>
   <!-- end navbar -->
 
-  <div class="container">
+  <div class="container content">
     <!-- breadcrumb -->
-    <nav aria-label="breadcrumb" class="content">
+    <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="mr-auto">
           <h3>Dashboard v1</h3>
@@ -170,17 +170,33 @@
           <div class="row">
             <div class="col-md-12">
               <div class="card card-without-shadow">
-                <div class="card-header bg-biru">
-                  <h5 class="card-title">
-                    Sales
-                  </h5>
+                <div class=" card-header bg-biru">
+                  <div class="card-title">
+                    <h5 class="pt-2"> Sales </h5>
+                    <ul class="nav nav-pills ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#revenue-chart" data-toggle="tab">Area</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sales-chart" data-toggle="tab">Donut</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="card-body">
-                  <canvas id="mychart" height="200"></canvas>
+                  <div class="tab-content p-0">
+                    <div class="chart tab-pane active" id="revenue-chart">
+                      <canvas id="mychart-doughnut" height="200" class="chart-pie"></canvas>
+                    </div>
+                    <div class="chart tab-pane" id="sales-chart">
+                      <canvas id="mychart-boundaries" height="200"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
 
         <div class="col-md-4">
@@ -268,7 +284,7 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/Chart.js"></script>
-  <script src="js/style.js"></script>
+  <script src="js/mini-admin.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
 </body>

@@ -11,7 +11,7 @@ $(window).scroll(function () {
 });
 // end navbar scroll
 
-var ctx = document.getElementById("mychart").getContext('2d');
+var ctx = document.getElementById("mychart-doughnut").getContext('2d');
 var biru = '#3b9ef5';
 var orange = 'rgb(255, 179, 0)';
 var putih = 'rgb(248, 248, 248)';
@@ -42,6 +42,35 @@ var myChart = new Chart(ctx, {
         putih
       ],
       borderWidth: 5
+    }]
+  }
+});
+
+var ctx = document.getElementById("mychart-boundaries").getContext('2d');
+var biru = '#3b9ef5';
+var orange = 'rgb(255, 179, 0)';
+var putih = 'rgb(248, 248, 248)';
+var merah = '#f53b66';
+var bgmerah = '#f53b667a';
+var ungu = '#b73bf5';
+var shadow = '#818181';
+var hijau = '#28a745';
+var myChart = new Chart(ctx, {
+
+  type: 'line',
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "Jule"],
+    datasets: [{
+      label: 'Customer',
+      data: [12, 19, 23, 2, 3, 10, 1],
+      borderColor: [
+        merah
+      ],
+      backgroundColor: [
+        bgmerah
+      ],
+      borderWidth: 4,
+      pointBorderWidth: 5
     }]
   }
 });
