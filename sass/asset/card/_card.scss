@@ -6,6 +6,12 @@
     max-width: none;
     min-width: 0px;
     border-radius: 5px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
 }
 
 .card:not([class*="card-without-shadow"]) {
@@ -61,12 +67,14 @@
     &:hover h5,
     &:hover h4 {
         color: $putih;
+        transition: 0.5s;
     }
 
     h5,
     h4 {
         color: rgba(255, 255, 255, 0.575);
         text-align: right;
+        transition: 0.5s;
     }
 
     h5 {

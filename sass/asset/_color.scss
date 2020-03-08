@@ -1,0 +1,78 @@
+.bg-merah {
+    background-color: $merah;
+    color: $putih;
+}
+
+.bg-orange {
+    background-color: $orange;
+    color: $dark;
+}
+
+.bg-biru {
+    background-color: $biru;
+    color: $putih;
+}
+
+.bg-hijau {
+    background-color: $hijau;
+    color: $putih;
+}
+
+.bg-ungu {
+    background-color: $ungu;
+    color: $putih;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+
+.bg-putih {
+    background-color: $putih;
+}
+
+.outline-orange {
+    border-color: $orange;
+    color: $orange;
+
+    &:hover {
+        border-color: none;
+        background-color: $orange;
+        color: $dark;
+    }
+}
+
+.outline-ungu {
+    border-color: $ungu;
+    color: $ungu;
+
+    &:hover {
+        border-color: none;
+        background-color: $ungu;
+        color: $putih;
+    }
+}
+
+.color-dark {
+    color: $dark;
+}
+
+.color-hijau {
+    color: $hijau;
+}
+
+.color-merah {
+    color: $merah;
+}
+
+.color-ungu {
+    color: $ungu;
+}
+
+.color-biru {
+    color: $biru;
+}
+
+.color-orange {
+    color: $orange;
+}
