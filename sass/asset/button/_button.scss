@@ -1,0 +1,63 @@
+.btn {
+    transition: 1s;
+}
+
+.btn-red {
+    background-color: $red;
+    color: $white;
+
+    &:hover {
+        background-color: $red-hover;
+        color: $white;
+    }
+}
+
+.btn-blue {
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+        background-color: $blue-hover;
+        color: $white;
+    }
+}
+
+.btn-green {
+    background-color: $green;
+    color: $white;
+
+    &:hover {
+        background-color: $green-hover;
+        color: $white;
+    }
+}
+
+.btn-orange {
+    background-color: $orange;
+    color: $dark;
+
+    &:hover {
+        background-color: $orange-hover;
+        color: $dark;
+    }
+}
+
+.btn-purple {
+    background-color: $purple;
+    color: $white;
+
+    &:hover {
+        background-color: $purple-hover;
+        color: $white;
+    }
+}
+
+.btn-dark {
+    background-color: $dark;
+    color: $white;
+
+    &:hover {
+        background-color: $dark-hover;
+        color: $white;
+    }
+}

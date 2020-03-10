@@ -52,3 +52,14 @@
         color: $white;
     }
 }
+
+.outline-dark {
+    border-color: $dark;
+    color: $dark;
+
+    &:hover {
+        border-color: none;
+        background-color: $dark;
+        color: $white;
+    }
+}

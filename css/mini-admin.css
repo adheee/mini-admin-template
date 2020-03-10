@@ -77,6 +77,10 @@ footer {
   font-weight: 600;
 }
 
+.disabled {
+  cursor: not-allowed !important;
+}
+
 h1,
 h2,
 h3,
@@ -111,6 +115,10 @@ footer {
 
 .ti {
   font-weight: 600;
+}
+
+.disabled {
+  cursor: not-allowed !important;
 }
 
 .card-without-shadow {
@@ -316,6 +324,16 @@ footer {
 .outline-blue:hover {
   border-color: none;
   background-color: #3b9ef5;
+  color: white;
+}
+
+.outline-dark {
+  border-color: #303236;
+  color: #303236;
+}
+.outline-dark:hover {
+  border-color: none;
+  background-color: #303236;
   color: white;
 }
 
@@ -689,6 +707,64 @@ footer {
   border-bottom: 10px solid #ffb300;
   position: relative;
   z-index: 99999;
+}
+
+.btn {
+  transition: 1s;
+}
+
+.btn-red {
+  background-color: #f53b66;
+  color: white;
+}
+.btn-red:hover {
+  background-color: #d32d54;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #3b9ef5;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: #2d84d1;
+  color: white;
+}
+
+.btn-green {
+  background-color: #28a745;
+  color: white;
+}
+.btn-green:hover {
+  background-color: #1f8837;
+  color: white;
+}
+
+.btn-orange {
+  background-color: #ffb300;
+  color: #303236;
+}
+.btn-orange:hover {
+  background-color: #dfa00e;
+  color: #303236;
+}
+
+.btn-purple {
+  background-color: #b73bf5;
+  color: white;
+}
+.btn-purple:hover {
+  background-color: #912fc2;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #303236;
+  color: white;
+}
+.btn-dark:hover {
+  background-color: #232529;
+  color: white;
 }
 
 /*# sourceMappingURL=mini-admin.css.map */
