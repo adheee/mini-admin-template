@@ -1,0 +1,65 @@
+.hover-dark {
+    &:hover {
+        color: $dark;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $dark;
+    }
+}
+
+.hover-purple {
+    &:hover {
+        color: $purple;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $purple;
+    }
+}
+
+.hover-orange {
+    &:hover {
+        color: $orange;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $orange;
+    }
+}
+
+.hover-red {
+    &:hover {
+        color: $red;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $red;
+    }
+}
+
+.hover-blue {
+    &:hover {
+        color: $blue;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $blue;
+    }
+}
+
+.hover-green {
+    &:hover {
+        color: $green;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+    &:focus {
+        color: $green;
+    }
+}

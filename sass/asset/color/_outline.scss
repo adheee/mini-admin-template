@@ -1,0 +1,54 @@
+.outline-orange {
+    border-color: $orange;
+    color: $orange;
+
+    &:hover {
+        border-color: none;
+        background-color: $orange;
+        color: $dark;
+    }
+}
+
+.outline-purple {
+    border-color: $purple;
+    color: $purple;
+
+    &:hover {
+        border-color: none;
+        background-color: $purple;
+        color: $white;
+    }
+}
+
+.outline-red {
+    border-color: $red;
+    color: $red;
+
+    &:hover {
+        border-color: none;
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.outline-green {
+    border-color: $green;
+    color: $green;
+
+    &:hover {
+        border-color: none;
+        background-color: $green;
+        color: $white;
+    }
+}
+
+.outline-blue {
+    border-color: $blue;
+    color: $blue;
+
+    &:hover {
+        border-color: none;
+        background-color: $blue;
+        color: $white;
+    }
+}

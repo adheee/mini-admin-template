@@ -1,37 +1,3 @@
-/* dark navbar */
-.navbar-brand,
-.navbar-brand:hover {
-  color: white;
-}
-
-.bg-dark,
-.bg-dark .navbar-nav a,
-.bg-dark .dropdown-menu {
-  background-color: #303236 !important;
-  color: #686a6e !important;
-}
-
-/* end dark navbar */
-/* navbar-orange */
-.navbar-orange .navbar-nav a:hover {
-  color: #ffb300 !important;
-  transition: 0.5s;
-}
-.navbar-orange .dropdown-menu a:hover {
-  color: #ffb300 !important;
-}
-
-/* end navbar-orange */
-/* navbar-biru */
-.navbar-biru .navbar-nav a:hover {
-  color: #3b9ef5 !important;
-  transition: 0.5s;
-}
-.navbar-biru .dropdown-menu a:hover {
-  color: #3b9ef5 !important;
-}
-
-/* end navbar-biru */
 .navbar {
   height: 50px !important;
   transition: ease all 1s;
@@ -70,18 +36,6 @@
   padding-right: 0;
   padding-bottom: 0 !important;
 }
-.breadcrumb h3 {
-  color: #ffb300;
-}
-.breadcrumb a {
-  color: #303236;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.breadcrumb a:hover {
-  color: #ffb300;
-  transition: 0.5s;
-}
 
 h1,
 h2,
@@ -90,6 +44,11 @@ h4,
 h5,
 h6 {
   margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+  transition: 0.5s;
 }
 
 section {
@@ -121,6 +80,11 @@ h4,
 h5,
 h6 {
   margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+  transition: 0.5s;
 }
 
 section {
@@ -157,6 +121,8 @@ footer {
   text-decoration: none solid white;
   text-align: left;
   text-indent: 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 .card:not([class*=card-without-shadow]) {
@@ -174,6 +140,8 @@ footer {
   min-width: 0px;
   border-radius: 5px;
   transition: 0.5s;
+  position: relative;
+  overflow: hidden;
 }
 .card:not([class*=card-without-shadow]):hover {
   box-shadow: 0 5px 20px #818181;
@@ -263,7 +231,7 @@ footer {
   font-size: 40px;
 }
 
-.bg-merah {
+.bg-red {
   background-color: #f53b66;
   color: white;
 }
@@ -273,17 +241,17 @@ footer {
   color: #303236;
 }
 
-.bg-biru {
+.bg-blue {
   background-color: #3b9ef5;
   color: white;
 }
 
-.bg-hijau {
+.bg-green {
   background-color: #28a745;
   color: white;
 }
 
-.bg-ungu {
+.bg-purple {
   background-color: #b73bf5;
   color: white;
 }
@@ -292,8 +260,9 @@ footer {
   background-color: #303236;
 }
 
-.bg-putih {
+.bg-white {
   background-color: white;
+  color: #303236;
 }
 
 .outline-orange {
@@ -306,38 +275,126 @@ footer {
   color: #303236;
 }
 
-.outline-ungu {
+.outline-purple {
   border-color: #b73bf5;
   color: #b73bf5;
 }
-.outline-ungu:hover {
+.outline-purple:hover {
   border-color: none;
   background-color: #b73bf5;
   color: white;
 }
 
-.color-dark {
+.outline-red {
+  border-color: #f53b66;
+  color: #f53b66;
+}
+.outline-red:hover {
+  border-color: none;
+  background-color: #f53b66;
+  color: white;
+}
+
+.outline-green {
+  border-color: #28a745;
+  color: #28a745;
+}
+.outline-green:hover {
+  border-color: none;
+  background-color: #28a745;
+  color: white;
+}
+
+.outline-blue {
+  border-color: #3b9ef5;
+  color: #3b9ef5;
+}
+.outline-blue:hover {
+  border-color: none;
+  background-color: #3b9ef5;
+  color: white;
+}
+
+.text-dark {
   color: #303236;
 }
 
-.color-hijau {
+.text-green {
   color: #28a745;
 }
 
-.color-merah {
+.text-red {
   color: #f53b66;
 }
 
-.color-ungu {
+.text-purple {
   color: #b73bf5;
 }
 
-.color-biru {
+.text-blue {
   color: #3b9ef5;
 }
 
-.color-orange {
+.text-orange {
   color: #ffb300;
+}
+
+.text-dark-menu {
+  color: #686a6e;
+}
+
+.hover-dark:hover {
+  color: #303236;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-dark:focus {
+  color: #303236;
+}
+
+.hover-purple:hover {
+  color: #b73bf5;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-purple:focus {
+  color: #b73bf5;
+}
+
+.hover-orange:hover {
+  color: #ffb300;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-orange:focus {
+  color: #ffb300;
+}
+
+.hover-red:hover {
+  color: #f53b66;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-red:focus {
+  color: #f53b66;
+}
+
+.hover-blue:hover {
+  color: #3b9ef5;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-blue:focus {
+  color: #3b9ef5;
+}
+
+.hover-green:hover {
+  color: #28a745;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-green:focus {
+  color: #28a745;
 }
 
 /*# sourceMappingURL=style.css.map */
