@@ -1,0 +1,694 @@
+.navbar {
+  height: 50px !important;
+  transition: ease all 1s;
+  -webkit-transition: ease all 1s;
+  -moz-transition: ease all 1s;
+  -o-transition: ease all 1s;
+}
+
+.navbar-mini {
+  height: 45px !important;
+  border-top: 0.1px solid #535353 !important;
+}
+.navbar-mini .nav-link {
+  padding-left: 0px !important;
+  margin-right: 20px;
+}
+.navbar-mini .nav-link:active {
+  color: #ffb300;
+}
+
+.navbar-scroll {
+  height: 0 !important;
+  transition: ease all 1s;
+  -webkit-transition: ease all 1s;
+  -moz-transition: ease all 1s;
+  -o-transition: ease all 1s;
+}
+.navbar-scroll .navbar-brand,
+.navbar-scroll .navbar-nav {
+  display: none;
+}
+
+.dropdown-menu {
+  margin-top: 5px !important;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+  transition: 0.5s;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #686a6e;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.content {
+  margin-top: 120px;
+}
+
+.ti {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+  transition: 0.5s;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #686a6e;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.content {
+  margin-top: 120px;
+}
+
+.ti {
+  font-weight: 600;
+}
+
+.card-without-shadow {
+  max-height: none;
+  min-height: 80px;
+  max-width: none;
+  min-width: 0px;
+  border-radius: 5px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  text-decoration: none solid white;
+  text-align: left;
+  text-indent: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:not([class*=card-without-shadow]) {
+  cursor: pointer;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  text-decoration: none solid white;
+  text-align: left;
+  text-indent: 0px;
+  padding: 8px;
+  max-height: none;
+  min-height: 80px;
+  max-width: none;
+  min-width: 0px;
+  border-radius: 5px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+.card:not([class*=card-without-shadow]):hover {
+  box-shadow: 0 5px 20px #818181;
+  -webkit-box-shadow: 0 5px 20px #818181;
+  -moz-box-shadow: 0 5px 20px #818181;
+  transition: 0.5s;
+}
+
+.card-title {
+  display: flex;
+  padding: auto;
+  margin-bottom: 0;
+}
+.card-title h5,
+.card-title h6,
+.card-title i,
+.card-title span {
+  font-weight: 900;
+}
+.card-title i,
+.card-title span {
+  margin-right: 10px;
+}
+
+.card-default {
+  height: 150px;
+  border: none;
+}
+.card-default:hover span {
+  font-size: 80px;
+}
+.card-default:hover h5, .card-default:hover h4 {
+  color: white;
+  transition: 0.5s;
+}
+.card-default h5,
+.card-default h4 {
+  color: rgba(255, 255, 255, 0.575);
+  text-align: right;
+  transition: 0.5s;
+}
+.card-default h5 {
+  font-weight: 700;
+}
+.card-default h4 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.card-default span {
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.575);
+  transition: 0.5s;
+}
+
+.card-outline {
+  height: 150px;
+}
+.card-outline:hover span {
+  font-size: 80px;
+}
+.card-outline h5,
+.card-outline h4 {
+  text-align: right;
+}
+.card-outline h5 {
+  font-weight: 700;
+}
+.card-outline h4 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.card-outline span {
+  font-size: 60px;
+  transition: 0.5s;
+}
+
+.card-small {
+  height: 100px;
+  border: none;
+}
+.card-small p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.card-small .ti {
+  font-size: 40px;
+}
+
+.bg-red {
+  background-color: #f53b66;
+  color: white;
+}
+
+.bg-orange {
+  background-color: #ffb300;
+  color: #303236;
+}
+
+.bg-blue {
+  background-color: #3b9ef5;
+  color: white;
+}
+
+.bg-green {
+  background-color: #28a745;
+  color: white;
+}
+
+.bg-purple {
+  background-color: #b73bf5;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #303236;
+}
+
+.bg-white {
+  background-color: white;
+  color: #303236;
+}
+
+.outline-orange {
+  border-color: #ffb300;
+  color: #ffb300;
+}
+.outline-orange:hover {
+  border-color: none;
+  background-color: #ffb300;
+  color: #303236;
+}
+
+.outline-purple {
+  border-color: #b73bf5;
+  color: #b73bf5;
+}
+.outline-purple:hover {
+  border-color: none;
+  background-color: #b73bf5;
+  color: white;
+}
+
+.outline-red {
+  border-color: #f53b66;
+  color: #f53b66;
+}
+.outline-red:hover {
+  border-color: none;
+  background-color: #f53b66;
+  color: white;
+}
+
+.outline-green {
+  border-color: #28a745;
+  color: #28a745;
+}
+.outline-green:hover {
+  border-color: none;
+  background-color: #28a745;
+  color: white;
+}
+
+.outline-blue {
+  border-color: #3b9ef5;
+  color: #3b9ef5;
+}
+.outline-blue:hover {
+  border-color: none;
+  background-color: #3b9ef5;
+  color: white;
+}
+
+.text-dark {
+  color: #303236;
+}
+
+.text-green {
+  color: #28a745;
+}
+
+.text-red {
+  color: #f53b66;
+}
+
+.text-purple {
+  color: #b73bf5;
+}
+
+.text-blue {
+  color: #3b9ef5;
+}
+
+.text-orange {
+  color: #ffb300;
+}
+
+.text-dark-menu {
+  color: #686a6e;
+}
+
+.hover-dark:hover {
+  color: #303236;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-dark:focus {
+  color: #303236;
+}
+
+.hover-purple:hover {
+  color: #b73bf5;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-purple:focus {
+  color: #b73bf5;
+}
+
+.hover-orange:hover {
+  color: #ffb300;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-orange:focus {
+  color: #ffb300;
+}
+
+.hover-red:hover {
+  color: #f53b66;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-red:focus {
+  color: #f53b66;
+}
+
+.hover-blue:hover {
+  color: #3b9ef5;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-blue:focus {
+  color: #3b9ef5;
+}
+
+.hover-green:hover {
+  color: #28a745;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.hover-green:focus {
+  color: #28a745;
+}
+
+.triangle-left-dark {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #303236;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-orange {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ffb300;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-blue {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #3b9ef5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-red {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #f53b66;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-green {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #28a745;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-purple {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #b73bf5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-left-white {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-dark {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #303236;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-blue {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #3b9ef5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-green {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #28a745;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-purple {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #b73bf5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-red {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f53b66;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-orange {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ffb300;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-right-white {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-dark {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #303236;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-white {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-blue {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #3b9ef5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-green {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #28a745;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-red {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f53b66;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-purple {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #b73bf5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-bottom-orange {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffb300;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-dark {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #303236;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-orange {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffb300;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-white {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-red {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #f53b66;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-blue {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #3b9ef5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-green {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #28a745;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-purple {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #b73bf5;
+  position: relative;
+  z-index: 99999;
+}
+
+.triangle-top-orange {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffb300;
+  position: relative;
+  z-index: 99999;
+}
+
+/*# sourceMappingURL=mini-admin.css.map */
