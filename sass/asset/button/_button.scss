@@ -1,5 +1,12 @@
+@import './with-icon';
+
+button {
+    font-weight: 400 !important;
+}
+
 .btn {
     transition: 1s;
+    align-items: stretch;
 }
 
 .btn-red {

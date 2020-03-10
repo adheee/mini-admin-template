@@ -74,7 +74,7 @@ footer {
 }
 
 .ti {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .disabled {
@@ -114,7 +114,7 @@ footer {
 }
 
 .ti {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .disabled {
@@ -419,298 +419,76 @@ footer {
   color: #28a745;
 }
 
-.triangle-left-dark {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #303236;
-  position: relative;
-  z-index: 99999;
+.border-red {
+  border-color: #f53b66 !important;
 }
 
-.triangle-left-orange {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #ffb300;
-  position: relative;
-  z-index: 99999;
+.border-blue {
+  border-color: #3b9ef5 !important;
 }
 
-.triangle-left-blue {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #3b9ef5;
-  position: relative;
-  z-index: 99999;
+.border-green {
+  border-color: #28a745 !important;
 }
 
-.triangle-left-red {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #f53b66;
-  position: relative;
-  z-index: 99999;
+.border-orange {
+  border-color: #ffb300 !important;
 }
 
-.triangle-left-green {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #28a745;
-  position: relative;
-  z-index: 99999;
+.border-purple {
+  border-color: #b73bf5 !important;
 }
 
-.triangle-left-purple {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #b73bf5;
-  position: relative;
-  z-index: 99999;
+.border-dark {
+  border-color: #303236 !important;
 }
 
-.triangle-left-white {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid white;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-dark {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #303236;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-blue {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #3b9ef5;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-green {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #28a745;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-purple {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #b73bf5;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-red {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #f53b66;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-right-orange {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #ffb300;
-  position: relative;
-  z-index: 99999;
+.border-white {
+  border-color: white !important;
 }
 
 .triangle-right-white {
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid white;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-bottom-dark {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #303236;
-  position: relative;
-  z-index: 99999;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .triangle-bottom-white {
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid white;
-  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
   z-index: 99999;
+  left: 0%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.triangle-bottom-blue {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #3b9ef5;
+.btn-group {
   position: relative;
-  z-index: 99999;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
-.triangle-bottom-green {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #28a745;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-bottom-red {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #f53b66;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-bottom-purple {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #b73bf5;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-bottom-orange {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #ffb300;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-dark {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #303236;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-orange {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #ffb300;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-white {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid white;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-red {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #f53b66;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-blue {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #3b9ef5;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-green {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #28a745;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-purple {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #b73bf5;
-  position: relative;
-  z-index: 99999;
-}
-
-.triangle-top-orange {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #ffb300;
-  position: relative;
-  z-index: 99999;
+button {
+  font-weight: 400 !important;
 }
 
 .btn {
   transition: 1s;
+  align-items: stretch;
 }
 
 .btn-red {
