@@ -63,3 +63,25 @@
         color: $white;
     }
 }
+
+.outline-dark-blue {
+    border-color: $dark-blue;
+    color: $dark-blue;
+
+    &:hover {
+        border-color: none;
+        background-color: $dark-blue;
+        color: $orange;
+    }
+}
+
+.outline-soft-green {
+    border-color: $soft-green;
+    color: $soft-green;
+
+    &:hover {
+        border-color: none;
+        background-color: $soft-green;
+        color: $white;
+    }
+}

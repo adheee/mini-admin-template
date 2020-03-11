@@ -4,6 +4,7 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $dark;
     }
@@ -15,6 +16,7 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $purple;
     }
@@ -26,6 +28,7 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $orange;
     }
@@ -37,6 +40,7 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $red;
     }
@@ -48,6 +52,7 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $blue;
     }
@@ -59,7 +64,32 @@
         transition: 0.5s;
         background-color: transparent;
     }
+
     &:focus {
         color: $green;
+    }
+}
+
+.hover-dark-blue {
+    &:hover {
+        color: $dark-blue;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+
+    &:focus {
+        color: $dark-blue;
+    }
+}
+
+.hover-soft-green {
+    &:hover {
+        color: $soft-green;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+
+    &:focus {
+        color: $soft-green;
     }
 }
