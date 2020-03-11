@@ -8,14 +8,11 @@
 
 .navbar-mini {
   height: 45px !important;
-  border-top: 0.1px solid #535353 !important;
+  border-top: 0.1px solid #4a6075 !important;
 }
 .navbar-mini .nav-link {
   padding-left: 0px !important;
   margin-right: 20px;
-}
-.navbar-mini .nav-link:active {
-  color: #ffbb00;
 }
 
 .navbar-scroll {
@@ -28,10 +25,6 @@
 .navbar-scroll .navbar-brand,
 .navbar-scroll .navbar-nav {
   display: none;
-}
-
-.dropdown-menu {
-  margin-top: 5px !important;
 }
 
 .breadcrumb {
@@ -55,6 +48,10 @@ a {
   transition: 0.5s;
 }
 
+div {
+  margin-bottom: 5px;
+}
+
 section {
   margin-bottom: 70px;
 }
@@ -62,11 +59,7 @@ section {
 footer {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #686a6e;
-}
-
-.row {
-  margin-bottom: 15px;
+  color: #6f8aa1;
 }
 
 .content {
@@ -95,6 +88,10 @@ a {
   transition: 0.5s;
 }
 
+div {
+  margin-bottom: 5px;
+}
+
 section {
   margin-bottom: 70px;
 }
@@ -102,11 +99,7 @@ section {
 footer {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #686a6e;
-}
-
-.row {
-  margin-bottom: 15px;
+  color: #6f8aa1;
 }
 
 .content {
@@ -269,7 +262,7 @@ footer {
 }
 
 .bg-dark {
-  background-color: #34495e;
+  background-color: #34495e !important;
 }
 
 .bg-white {
@@ -392,7 +385,7 @@ footer {
 }
 
 .text-dark-menu {
-  color: #686a6e;
+  color: #6f8aa1;
 }
 
 .text-soft-green {
@@ -555,6 +548,44 @@ button {
   align-items: stretch;
 }
 
+.btn-app {
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  color: #6c757d;
+  font-size: 12px;
+  height: 60px;
+  margin: 0 0 10px 10px;
+  min-width: 80px;
+  padding: 15px 5px;
+  position: relative;
+  text-align: center;
+}
+
+.btn-app > .ti {
+  display: block;
+  font-size: 20px;
+}
+
+.btn-app:hover {
+  background: #f8f9fa;
+  border-color: #aaaaaa;
+  color: #444;
+}
+
+.btn-app:active,
+.btn-app:focus {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-app > .badge {
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  right: -10px;
+  top: -3px;
+}
+
 .btn-red {
   background-color: #f53b66;
   color: white;
@@ -606,6 +637,24 @@ button {
 }
 .btn-dark:hover {
   background-color: #232529;
+  color: white;
+}
+
+.btn-dark-blue {
+  background-color: #1A3365;
+  color: #ffbb00;
+}
+.btn-dark-blue:hover {
+  background-color: #102142;
+  color: #ffbb00;
+}
+
+.btn-soft-green {
+  background-color: #1abc9c;
+  color: white;
+}
+.btn-soft-green:hover {
+  background-color: #137964;
   color: white;
 }
 
