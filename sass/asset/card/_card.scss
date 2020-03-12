@@ -2,7 +2,6 @@
 
 .card-without-shadow {
     max-height: none;
-    min-height: 80px;
     max-width: none;
     min-width: 0px;
     border-radius: 5px;
@@ -40,6 +39,14 @@
         -moz-box-shadow: 0 5px 20px $shadow;
         transition: 0.5s;
     }
+}
+
+.card-img {
+    height: 400px !important;
+}
+
+.card-img img {
+    height: 220px !important;
 }
 
 .card-title {

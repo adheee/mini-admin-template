@@ -116,7 +116,6 @@ footer {
 
 .card-without-shadow {
   max-height: none;
-  min-height: 80px;
   max-width: none;
   min-width: 0px;
   border-radius: 5px;
@@ -153,6 +152,14 @@ footer {
   -webkit-box-shadow: 0 5px 20px #818181;
   -moz-box-shadow: 0 5px 20px #818181;
   transition: 0.5s;
+}
+
+.card-img {
+  height: 400px !important;
+}
+
+.card-img img {
+  height: 220px !important;
 }
 
 .card-title {
@@ -879,6 +886,78 @@ button {
 .btn-soft-green:hover {
   background-color: #137964 !important;
   color: white !important;
+}
+
+.img-thumbnail-red {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #f53b66;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-blue {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #3498db;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-green {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #2ecc71;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-purple {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #9b59b6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-dark {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #34495e;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-orange {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #ffbb00;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-soft-green {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #1abc9c;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail-dark-blue {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #1A3365;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=mini-admin.css.map */
