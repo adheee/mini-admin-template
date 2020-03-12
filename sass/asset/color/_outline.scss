@@ -1,87 +1,103 @@
 .outline-orange {
     border-color: $orange !important;
     color: $orange !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $orange !important;
         color: $dark !important;
+        transition: 1s;
     }
 }
 
 .outline-purple {
     border-color: $purple !important;
     color: $purple !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $purple !important;
         color: $white !important;
+        transition: 1s;
     }
 }
 
 .outline-red {
     border-color: $red !important;
     color: $red !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $red !important;
         color: $white !important;
+        transition: 1s;
     }
 }
 
 .outline-green {
     border-color: $green !important;
     color: $green !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $green !important;
         color: $white !important;
+        transition: 1s;
     }
 }
 
 .outline-blue {
     border-color: $blue !important;
     color: $blue !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $blue !important;
         color: $white !important;
+        transition: 1s;
     }
 }
 
 .outline-dark {
     border-color: $dark !important;
     color: $dark !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $dark !important;
         color: $white !important;
+        transition: 1s;
     }
 }
 
 .outline-dark-blue {
     border-color: $dark-blue !important;
     color: $dark-blue !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $dark-blue !important;
         color: $orange !important;
+        transition: 1s;
     }
 }
 
 .outline-soft-green {
     border-color: $soft-green !important;
     color: $soft-green !important;
+    transition: 1s;
 
     &:hover {
         border-color: none !important;
         background-color: $soft-green !important;
         color: $white !important;
+        transition: 1s;
     }
 }
