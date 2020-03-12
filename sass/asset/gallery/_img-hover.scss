@@ -1,0 +1,29 @@
+.img-hover {
+    position: relative;
+    overflow: hidden !important;
+
+    img {
+        position: relative;
+    }
+
+    p {
+        position: absolute;
+        top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 50px;
+        text-align: left;
+        opacity: 0;
+        transition: 1s;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    &:hover p {
+        opacity: 1 !important;
+        transition: 1s;
+    }
+}

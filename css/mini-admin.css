@@ -48,7 +48,7 @@ a {
   transition: 0.5s;
 }
 
-div {
+.row {
   margin-bottom: 5px;
 }
 
@@ -88,7 +88,7 @@ a {
   transition: 0.5s;
 }
 
-div {
+.row {
   margin-bottom: 5px;
 }
 
@@ -285,6 +285,46 @@ footer {
 
 .bg-soft-green {
   background-color: #1abc9c;
+  color: white;
+}
+
+.bg-red-opacity {
+  background-color: #f53b66a9;
+  color: white;
+}
+
+.bg-orange-opacity {
+  background-color: #ffbb00b4;
+  color: white;
+}
+
+.bg-blue-opacity {
+  background-color: #3498dbb6;
+  color: white;
+}
+
+.bg-green-opacity {
+  background-color: #2ecc709f;
+  color: white;
+}
+
+.bg-purple-opacity {
+  background-color: #9c59b6a8;
+  color: white;
+}
+
+.bg-dark-opacity {
+  background-color: #34495ec2 !important;
+  color: white;
+}
+
+.bg-dark-blue-opacity {
+  background-color: rgba(26, 51, 101, 0.712);
+  color: #ffbb00;
+}
+
+.bg-soft-green-opacity {
+  background-color: #1abc9ca4;
   color: white;
 }
 
@@ -886,6 +926,33 @@ button {
 .btn-soft-green:hover {
   background-color: #137964 !important;
   color: white !important;
+}
+
+.img-hover {
+  position: relative;
+  overflow: hidden !important;
+}
+.img-hover img {
+  position: relative;
+}
+.img-hover p {
+  position: absolute;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  text-align: left;
+  opacity: 0;
+  transition: 1s;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.img-hover:hover p {
+  opacity: 1 !important;
+  transition: 1s;
 }
 
 .img-thumbnail-red {
