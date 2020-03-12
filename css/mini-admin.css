@@ -413,8 +413,11 @@ footer {
   color: #1A3365;
 }
 
+.hover-dark {
+  transition: 0.5s;
+}
 .hover-dark:hover {
-  color: #34495e;
+  color: #34495e !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -422,8 +425,11 @@ footer {
   color: #34495e;
 }
 
+.hover-purple {
+  transition: 0.5s;
+}
 .hover-purple:hover {
-  color: #9b59b6;
+  color: #9b59b6 !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -431,8 +437,11 @@ footer {
   color: #9b59b6;
 }
 
+.hover-orange {
+  transition: 0.5s;
+}
 .hover-orange:hover {
-  color: #ffbb00;
+  color: #ffbb00 !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -440,8 +449,11 @@ footer {
   color: #ffbb00;
 }
 
+.hover-red {
+  transition: 0.5s;
+}
 .hover-red:hover {
-  color: #f53b66;
+  color: #f53b66 !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -449,8 +461,11 @@ footer {
   color: #f53b66;
 }
 
+.hover-blue {
+  transition: 0.5s;
+}
 .hover-blue:hover {
-  color: #3498db;
+  color: #3498db !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -458,8 +473,11 @@ footer {
   color: #3498db;
 }
 
+.hover-green {
+  transition: 0.5s;
+}
 .hover-green:hover {
-  color: #2ecc71;
+  color: #2ecc71 !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -467,8 +485,11 @@ footer {
   color: #2ecc71;
 }
 
+.hover-dark-blue {
+  transition: 0.5s;
+}
 .hover-dark-blue:hover {
-  color: #1A3365;
+  color: #1A3365 !important;
   transition: 0.5s;
   background-color: transparent;
 }
@@ -476,8 +497,11 @@ footer {
   color: #1A3365;
 }
 
+.hover-soft-green {
+  transition: 0.5s;
+}
 .hover-soft-green:hover {
-  color: #1abc9c;
+  color: #1abc9c !important;
   transition: 0.5s;
   background-color: transparent;
 }

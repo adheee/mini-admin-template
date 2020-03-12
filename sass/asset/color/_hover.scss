@@ -1,6 +1,8 @@
 .hover-dark {
+    transition: 0.5s;
+
     &:hover {
-        color: $dark;
+        color: $dark !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -11,8 +13,10 @@
 }
 
 .hover-purple {
+    transition: 0.5s;
+
     &:hover {
-        color: $purple;
+        color: $purple !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -23,8 +27,10 @@
 }
 
 .hover-orange {
+    transition: 0.5s;
+
     &:hover {
-        color: $orange;
+        color: $orange !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -35,8 +41,10 @@
 }
 
 .hover-red {
+    transition: 0.5s;
+
     &:hover {
-        color: $red;
+        color: $red !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -47,8 +55,10 @@
 }
 
 .hover-blue {
+    transition: 0.5s;
+
     &:hover {
-        color: $blue;
+        color: $blue !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -59,8 +69,10 @@
 }
 
 .hover-green {
+    transition: 0.5s;
+
     &:hover {
-        color: $green;
+        color: $green !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -71,8 +83,10 @@
 }
 
 .hover-dark-blue {
+    transition: 0.5s;
+
     &:hover {
-        color: $dark-blue;
+        color: $dark-blue !important;
         transition: 0.5s;
         background-color: transparent;
     }
@@ -83,8 +97,10 @@
 }
 
 .hover-soft-green {
+    transition: 0.5s;
+
     &:hover {
-        color: $soft-green;
+        color: $soft-green !important;
         transition: 0.5s;
         background-color: transparent;
     }
