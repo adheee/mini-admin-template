@@ -1,87 +1,87 @@
 .outline-orange {
-    border-color: $orange;
-    color: $orange;
+    border-color: $orange !important;
+    color: $orange !important;
 
     &:hover {
-        border-color: none;
-        background-color: $orange;
-        color: $dark;
+        border-color: none !important;
+        background-color: $orange !important;
+        color: $dark !important;
     }
 }
 
 .outline-purple {
-    border-color: $purple;
-    color: $purple;
+    border-color: $purple !important;
+    color: $purple !important;
 
     &:hover {
-        border-color: none;
-        background-color: $purple;
-        color: $white;
+        border-color: none !important;
+        background-color: $purple !important;
+        color: $white !important;
     }
 }
 
 .outline-red {
-    border-color: $red;
-    color: $red;
+    border-color: $red !important;
+    color: $red !important;
 
     &:hover {
-        border-color: none;
-        background-color: $red;
-        color: $white;
+        border-color: none !important;
+        background-color: $red !important;
+        color: $white !important;
     }
 }
 
 .outline-green {
-    border-color: $green;
-    color: $green;
+    border-color: $green !important;
+    color: $green !important;
 
     &:hover {
-        border-color: none;
-        background-color: $green;
-        color: $white;
+        border-color: none !important;
+        background-color: $green !important;
+        color: $white !important;
     }
 }
 
 .outline-blue {
-    border-color: $blue;
-    color: $blue;
+    border-color: $blue !important;
+    color: $blue !important;
 
     &:hover {
-        border-color: none;
-        background-color: $blue;
-        color: $white;
+        border-color: none !important;
+        background-color: $blue !important;
+        color: $white !important;
     }
 }
 
 .outline-dark {
-    border-color: $dark;
-    color: $dark;
+    border-color: $dark !important;
+    color: $dark !important;
 
     &:hover {
-        border-color: none;
-        background-color: $dark;
-        color: $white;
+        border-color: none !important;
+        background-color: $dark !important;
+        color: $white !important;
     }
 }
 
 .outline-dark-blue {
-    border-color: $dark-blue;
-    color: $dark-blue;
+    border-color: $dark-blue !important;
+    color: $dark-blue !important;
 
     &:hover {
-        border-color: none;
-        background-color: $dark-blue;
+        border-color: none !important;
+        background-color: $dark-blue !important;
         color: $orange;
     }
 }
 
 .outline-soft-green {
-    border-color: $soft-green;
-    color: $soft-green;
+    border-color: $soft-green !important;
+    color: $soft-green !important;
 
     &:hover {
-        border-color: none;
-        background-color: $soft-green;
-        color: $white;
+        border-color: none !important;
+        background-color: $soft-green !important;
+        color: $white !important;
     }
 }

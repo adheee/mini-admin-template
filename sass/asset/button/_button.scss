@@ -10,119 +10,108 @@ button {
 }
 
 .btn-app {
-    border-radius: 3px;
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    color: #6c757d;
-    font-size: 12px;
+    border-radius: 5px;
+    font-size: 15px;
     height: 60px;
     margin: 0 0 10px 10px;
     min-width: 80px;
     padding: 15px 5px;
     position: relative;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn-app>.ti {
     display: block;
     font-size: 20px;
-}
-
-.btn-app:hover {
-    background: #f8f9fa;
-    border-color: #aaaaaa;
-    color: #444;
-}
-
-.btn-app:active,
-.btn-app:focus {
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    font-weight: 400 !important;
 }
 
 .btn-app>.badge {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
     position: absolute;
     right: -10px;
     top: -3px;
+    color: $dark !important;
 }
 
 .btn-red {
-    background-color: $red;
-    color: $white;
+    background-color: $red !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $red-hover;
-        color: $white;
+        background-color: $red-hover !important;
+        color: $white !important;
     }
 }
 
 .btn-blue {
-    background-color: $blue;
-    color: $white;
+    background-color: $blue !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $blue-hover;
-        color: $white;
+        background-color: $blue-hover !important;
+        color: $white !important;
     }
 }
 
 .btn-green {
-    background-color: $green;
-    color: $white;
+    background-color: $green !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $green-hover;
-        color: $white;
+        background-color: $green-hover !important;
+        color: $white !important;
     }
 }
 
 .btn-orange {
-    background-color: $orange;
-    color: $dark;
+    background-color: $orange !important;
+    color: $dark !important;
 
     &:hover {
-        background-color: $orange-hover;
-        color: $dark;
+        background-color: $orange-hover !important;
+        color: $dark !important;
     }
 }
 
 .btn-purple {
-    background-color: $purple;
-    color: $white;
+    background-color: $purple !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $purple-hover;
-        color: $white;
+        background-color: $purple-hover !important;
+        color: $white !important;
     }
 }
 
 .btn-dark {
-    background-color: $dark;
-    color: $white;
+    background-color: $dark !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $dark-hover;
-        color: $white;
+        background-color: $dark-hover !important;
+        color: $white !important;
     }
 }
 
 .btn-dark-blue {
-    background-color: $dark-blue;
-    color: $orange;
+    background-color: $dark-blue !important;
+    color: $orange !important;
 
     &:hover {
-        background-color: $dark-blue-hover;
-        color: $orange;
+        background-color: $dark-blue-hover !important;
+        color: $orange !important;
     }
 }
 
 .btn-soft-green {
-    background-color: $soft-green;
-    color: $white;
+    background-color: $soft-green !important;
+    color: $white !important;
 
     &:hover {
-        background-color: $soft-green-hover;
-        color: $white;
+        background-color: $soft-green-hover !important;
+        color: $white !important;
     }
 }
