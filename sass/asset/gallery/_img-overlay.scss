@@ -1,0 +1,116 @@
+.img-overlay {
+    position: relative;
+    overflow: hidden !important;
+
+    span {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: 1s;
+        font-weight: 600;
+        overflow: hidden;
+        display: block;
+        font-size: 70px;
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+.img-overlay a:hover span {
+    opacity: 1;
+}
+
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0);
+    transition: ease all 0.5s;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    -o-transition: ease all 0.5s;
+    text-align: center;
+    padding: 50px;
+
+    &:target {
+        width: auto;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.884);
+    }
+
+    &:target img {
+        animation: zoomin 1s;
+    }
+
+    &:target a {
+        animation: downin 1s .5s forwards;
+    }
+
+    &:target p {
+        animation: downin 1s .5s forwards;
+    }
+
+    img {
+        max-height: 80%;
+        max-width: 80%;
+    }
+
+    a {
+        color: white;
+        position: absolute;
+        margin-left: 25px;
+        font-size: 20px;
+        transition: ease all 0.5s;
+        opacity: 0;
+
+        &:hover {
+            transform: rotate(90deg);
+        }
+    }
+
+    p {
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+        text-align: center;
+        opacity: 0;
+        text-transform: none;
+    }
+}
+
+/* animation */
+@keyframes zoomin {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes downin {
+    0% {
+        opacity: 0;
+        margin-top: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+/* end animation */
