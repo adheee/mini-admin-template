@@ -1,3 +1,4 @@
+// background
 .bg-red {
     background-color: $red;
     color: $white;
@@ -43,6 +44,9 @@
     color: $white;
 }
 
+// end background
+
+// backgroun opacity
 .bg-red-opacity {
     background-color: $red-opacity;
     color: $white;
@@ -82,3 +86,48 @@
     background-color: $soft-green-opacity;
     color: $white;
 }
+
+// end background opacity
+
+// background gradient
+.bg-red-gradient {
+    background: $red-gradient;
+    color: $white;
+}
+
+.bg-orange-gradient {
+    background: $orange-gradient;
+    color: $white;
+}
+
+.bg-blue-gradient {
+    background: $blue-gradient;
+    color: $white;
+}
+
+.bg-green-gradient {
+    background: $green-gradient;
+    color: $white;
+}
+
+.bg-purple-gradient {
+    background: $purple-gradient;
+    color: $white;
+}
+
+.bg-dark-gradient {
+    background: $dark-gradient !important;
+    color: $white;
+}
+
+.bg-dark-blue-gradient {
+    background: $dark-blue-gradient;
+    color: $white;
+}
+
+.bg-soft-green-gradient {
+    background: $soft-green-gradient;
+    color: $white;
+}
+
+// end background gradient

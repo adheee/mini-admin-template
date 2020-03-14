@@ -328,6 +328,46 @@ footer {
   color: white;
 }
 
+.bg-red-gradient {
+  background: linear-gradient(to right, #f53b66, #ff8f4e);
+  color: white;
+}
+
+.bg-orange-gradient {
+  background: linear-gradient(to right, #ffbb00, #ff8953);
+  color: white;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(to right, #3498db, #a45afa);
+  color: white;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(to right, #2ecc71, #56abf0);
+  color: white;
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(to right, #9b59b6, #fa51d5);
+  color: white;
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(to right, #34495e, #195fa5) !important;
+  color: white;
+}
+
+.bg-dark-blue-gradient {
+  background: linear-gradient(to right, #1A3365, #16249e);
+  color: white;
+}
+
+.bg-soft-green-gradient {
+  background: linear-gradient(to right, #1abc9c, #1abc3d);
+  color: white;
+}
+
 .outline-orange {
   border-color: #ffbb00 !important;
   color: #ffbb00 !important;
