@@ -4,7 +4,10 @@
     border: none;
 
     &:hover {
-        background: $red-gradient-hover !important;
+        box-shadow: 0 5px 20px $red;
+        -webkit-box-shadow: 0 5px 20px $red;
+        -moz-box-shadow: 0 5px 20px $red;
+        transition: 0.5s;
     }
 }
 
@@ -14,7 +17,10 @@
     border: none;
 
     &:hover {
-        background: $blue-gradient-hover !important;
+        box-shadow: 0 5px 20px $blue;
+        -webkit-box-shadow: 0 5px 20px $blue;
+        -moz-box-shadow: 0 5px 20px $blue;
+        transition: 0.5s;
     }
 }
 
@@ -24,7 +30,10 @@
     border: none;
 
     &:hover {
-        background: $green-gradient-hover !important;
+        box-shadow: 0 5px 20px $green;
+        -webkit-box-shadow: 0 5px 20px $green;
+        -moz-box-shadow: 0 5px 20px $green;
+        transition: 0.5s;
     }
 }
 
@@ -34,7 +43,10 @@
     border: none;
 
     &:hover {
-        background: $orange-gradient-hover !important;
+        box-shadow: 0 5px 20px $orange;
+        -webkit-box-shadow: 0 5px 20px $orange;
+        -moz-box-shadow: 0 5px 20px $orange;
+        transition: 0.5s;
     }
 }
 
@@ -44,7 +56,10 @@
     border: none;
 
     &:hover {
-        background: $purple-gradient-hover !important;
+        box-shadow: 0 5px 20px $purple;
+        -webkit-box-shadow: 0 5px 20px $purple;
+        -moz-box-shadow: 0 5px 20px $purple;
+        transition: 0.5s;
     }
 }
 
@@ -54,7 +69,10 @@
     border: none;
 
     &:hover {
-        background: $dark-gradient-hover !important;
+        box-shadow: 0 5px 20px $dark;
+        -webkit-box-shadow: 0 5px 20px $dark;
+        -moz-box-shadow: 0 5px 20px $dark;
+        transition: 0.5s;
     }
 }
 
@@ -64,7 +82,10 @@
     border: none;
 
     &:hover {
-        background: $dark-blue-gradient-hover !important;
+        box-shadow: 0 5px 20px $dark-blue;
+        -webkit-box-shadow: 0 5px 20px $dark-blue;
+        -moz-box-shadow: 0 5px 20px $dark-blue;
+        transition: 0.5s;
         color: $orange !important;
     }
 }
@@ -75,6 +96,9 @@
     border: none;
 
     &:hover {
-        background: $soft-green-gradient-hover !important;
+        box-shadow: 0 5px 20px $soft-green;
+        -webkit-box-shadow: 0 5px 20px $soft-green;
+        -moz-box-shadow: 0 5px 20px $soft-green;
+        transition: 0.5s;
     }
 }
