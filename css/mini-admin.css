@@ -860,6 +860,79 @@ footer {
   z-index: 99999 !important;
 }
 
+.btn-gradient-red {
+  background: linear-gradient(to right, #f53b66, #ff8f4e) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-red:hover {
+  background: linear-gradient(to left, #f53b66, #ff8f4e) !important;
+}
+
+.btn-gradient-blue {
+  background: linear-gradient(to right, #3498db, #a45afa) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-blue:hover {
+  background: linear-gradient(to left, #3498db, #a45afa) !important;
+}
+
+.btn-gradient-green {
+  background: linear-gradient(to right, #2ecc71, #56abf0) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-green:hover {
+  background: linear-gradient(to left, #2ecc71, #56abf0) !important;
+}
+
+.btn-gradient-orange {
+  background: linear-gradient(to right, #ffbb00, #ff8953) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-orange:hover {
+  background: linear-gradient(to left, #ffbb00, #ff8953) !important;
+}
+
+.btn-gradient-purple {
+  background: linear-gradient(to right, #9b59b6, #fa51d5) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-purple:hover {
+  background: linear-gradient(to left, #9b59b6, #fa51d5) !important;
+}
+
+.btn-gradient-dark {
+  background: linear-gradient(to right, #34495e, #195fa5) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-dark:hover {
+  background: linear-gradient(to left, #34495e, #195fa5) !important;
+}
+
+.btn-gradient-dark-blue {
+  background: linear-gradient(to right, #1A3365, #16249e) !important;
+  color: #ffbb00 !important;
+  border: none;
+}
+.btn-gradient-dark-blue:hover {
+  background: linear-gradient(to left, #1A3365, #16249e) !important;
+  color: #ffbb00 !important;
+}
+
+.btn-gradient-soft-green {
+  background: linear-gradient(to right, #1abc9c, #1abc3d) !important;
+  color: white !important;
+  border: none;
+}
+.btn-gradient-soft-green:hover {
+  background: linear-gradient(to left, #1abc9c, #1abc3d) !important;
+}
+
 button {
   font-weight: 400 !important;
 }

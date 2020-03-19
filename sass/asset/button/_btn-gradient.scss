@@ -1,0 +1,80 @@
+.btn-gradient-red {
+    background: $red-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $red-gradient-hover !important;
+    }
+}
+
+.btn-gradient-blue {
+    background: $blue-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $blue-gradient-hover !important;
+    }
+}
+
+.btn-gradient-green {
+    background: $green-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $green-gradient-hover !important;
+    }
+}
+
+.btn-gradient-orange {
+    background: $orange-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $orange-gradient-hover !important;
+    }
+}
+
+.btn-gradient-purple {
+    background: $purple-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $purple-gradient-hover !important;
+    }
+}
+
+.btn-gradient-dark {
+    background: $dark-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $dark-gradient-hover !important;
+    }
+}
+
+.btn-gradient-dark-blue {
+    background: $dark-blue-gradient !important;
+    color: $orange !important;
+    border: none;
+
+    &:hover {
+        background: $dark-blue-gradient-hover !important;
+        color: $orange !important;
+    }
+}
+
+.btn-gradient-soft-green {
+    background: $soft-green-gradient !important;
+    color: $white !important;
+    border: none;
+
+    &:hover {
+        background: $soft-green-gradient-hover !important;
+    }
+}
