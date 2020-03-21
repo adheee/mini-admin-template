@@ -961,6 +961,10 @@ button {
   font-weight: 400 !important;
 }
 
+.disabled:hover {
+  box-shadow: none !important;
+}
+
 .btn {
   transition: 1s;
   align-items: stretch;
