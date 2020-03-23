@@ -113,13 +113,12 @@
               <h5>Quick Example</h5>
             </div>
             <div class="card-body">
-              <div class="row mt-5">
+              <div class="row mt-3">
                 <div class="col-md-6">
                   <form class="form" method="post">
                     <div class="input-field">
                       <input type="text" name="name" required>
                       <label class="text-grey">First Name</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -129,7 +128,6 @@
                     <div class="input-field">
                       <input type="text" name="name" required>
                       <label class="text-grey">Last Name</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -139,7 +137,6 @@
                     <div class="input-field">
                       <input type="email" name="name" required>
                       <label class="text-grey">Email</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -149,7 +146,21 @@
                     <div class="input-field">
                       <input type="password" name="name" required>
                       <label class="text-grey">Password</label>
-                      <span class="bg-grey"></span>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-md-12">
+                  <form class="form" method="post">
+                    <div class="input-field">
+                      <textarea name="message" id="textarea" required></textarea>
+                      <label class="text-grey">Message</label>
+
+                      <script>
+                        $('#textarea').val('New Text');
+                        M.textareaAutoResize($('#textarea'));
+                      </script>
+
                     </div>
                   </form>
                 </div>
@@ -168,13 +179,12 @@
               <h5>General Elements</h5>
             </div>
             <div class="card-body">
-              <div class="row mt-5">
+              <div class="row mt-3">
                 <div class="col-md-6">
                   <form class="form" method="post">
                     <div class="input-field">
                       <input type="text" name="name" required>
                       <label class="text-grey">Text</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -184,7 +194,6 @@
                     <div class="input-field">
                       <input disabled value="I am not editable" type="text" name="name" required>
                       <label class="text-grey">Text Disabled</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -194,7 +203,6 @@
                     <div class="input-field">
                       <input type="email" name="name" required>
                       <label class="text-grey">Email</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
@@ -204,7 +212,6 @@
                     <div class="input-field">
                       <input type="password" name="name" required>
                       <label class="text-grey">Password</label>
-                      <span class="bg-grey"></span>
                     </div>
                   </form>
                 </div>
