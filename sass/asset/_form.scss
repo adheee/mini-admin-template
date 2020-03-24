@@ -11,7 +11,8 @@ textarea {
 
   input[type="text"]:disabled+label,
   input[type="email"]:disabled+label,
-  input[type="password"]:disabled+label {
+  input[type="password"]:disabled+label,
+  textarea:disabled+label {
     transform: translateY(-17px);
     font-size: 15px;
     color: $blue;
@@ -26,9 +27,19 @@ textarea {
     transition: transform 0.5s ease-in-out;
   }
 
+  textarea:disabled {
+    border-bottom: 2px solid $blue;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+  }
+
   input[type="text"],
   input[type="password"],
   input[type="email"],
+  input[type="file"],
   textarea {
     background-color: transparent;
     border: none;
@@ -61,16 +72,20 @@ textarea {
     border-bottom: 2px solid $grey;
   }
 
+  input[type="file"] {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
   textarea {
     width: 100%;
     background-color: transparent;
     line-height: 20px;
     overflow-y: auto !important;
-    /* prevents scroll bar flash */
-    padding: .8rem 0 .8rem 0;
-    /* prevents text jump on Enter keypress */
+    resize: none !important;
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
     height: auto !important;
-    min-height: 3rem;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
@@ -92,10 +107,12 @@ textarea {
   input[type="text"]:focus+label,
   input[type="email"]:focus+label,
   input[type="password"]:focus+label,
+  input[type="file"]:focus+label,
   textarea:focus+label,
   input[type="text"]:valid+label,
   input[type="email"]:valid+label,
   input[type="password"]:valid+label,
+  input[type="file"]:valid+label,
   textarea:valid+label {
     transform: translateY(-17px);
     font-size: 15px;
@@ -108,12 +125,18 @@ textarea {
   input[type="password"]:valid,
   input[type="email"]:focus,
   input[type="email"]:valid,
+  input[type="file"]:focus,
+  input[type="file"]:valid,
   textarea:focus,
   textarea:valid {
     border-bottom: 2px solid $blue;
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.5s ease-in-out;
+  }
+
+  input[type="file"]::-webkit-file-upload-button {
+    display: none;
   }
 
 }

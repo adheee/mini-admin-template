@@ -153,23 +153,8 @@
                 <div class="col-md-12">
                   <form class="form" method="post">
                     <div class="input-field">
-                      <textarea name="message" required></textarea>
-                      <label class="text-grey">Message</label>
-
-                      <script>
-                        var tx = document.getElementsByTagName('textarea');
-                        for (var i = 0; i < tx.length; i++) {
-                          tx[i].setAttribute('style', 'height:' + (tx[i].scrollHeight) +
-                            'px;overflow-y:hidden;');
-                          tx[i].addEventListener("input", OnInput, false);
-                        }
-
-                        function OnInput() {
-                          this.style.height = 'auto';
-                          this.style.height = (this.scrollHeight) + 'px';
-                        }
-                      </script>
-
+                      <input type="file" name="name" required>
+                      <label class="text-grey">Choose file</label>
                     </div>
                   </form>
                 </div>
@@ -188,47 +173,56 @@
               <h5>General Elements</h5>
             </div>
             <div class="card-body">
-              <div class="row mt-3">
-                <div class="col-md-6">
-                  <form class="form" method="post">
+              <form action="POST">
+                <div class="row mt-3">
+                  <div class="col-md-6">
                     <div class="input-field">
                       <input type="text" name="name" required>
                       <label class="text-grey">Text</label>
                     </div>
-                  </form>
-                </div>
+                  </div>
 
-                <div class="col-md-6">
-                  <form class="form" method="post">
+                  <div class="col-md-6">
                     <div class="input-field">
                       <input disabled value="I am not editable" type="text" name="name" required>
                       <label class="text-grey">Text Disabled</label>
                     </div>
-                  </form>
-                </div>
+                  </div>
 
-                <div class="col-md-12">
-                  <form class="form" method="post">
+                  <div class="col-md-12">
                     <div class="input-field">
-                      <input type="email" name="name" required>
-                      <label class="text-grey">Email</label>
-                    </div>
-                  </form>
-                </div>
+                      <textarea name="message" required></textarea>
+                      <label class="text-grey">Message</label>
 
-                <div class="col-md-12">
-                  <form class="form" method="post">
+                      <script>
+                        var tx = document.getElementsByTagName('textarea');
+                        for (var i = 0; i < tx.length; i++) {
+                          tx[i].setAttribute('style', 'height:' + (tx[i].scrollHeight) +
+                            'px;overflow-y:hidden; max-height: auto;');
+                          tx[i].addEventListener("input", OnInput, false);
+                        }
+
+                        function OnInput() {
+                          this.style.height = 'auto';
+                          this.style.height = (this.scrollHeight) + 'px';
+                        }
+                      </script>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
                     <div class="input-field">
                       <input type="password" name="name" required>
                       <label class="text-grey">Password</label>
                     </div>
-                  </form>
-                </div>
+                  </div>
 
-                <div class="col-md-12">
-                  <button class="btn btn-lg btn-block btn-gradient-soft-green">Register</button>
+                  <div class="col-md-12">
+                    <button class="btn btn-lg btn-block btn-gradient-soft-green">Register</button>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

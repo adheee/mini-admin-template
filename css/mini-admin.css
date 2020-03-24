@@ -1294,7 +1294,8 @@ textarea {
 }
 .input-field input[type=text]:disabled + label,
 .input-field input[type=email]:disabled + label,
-.input-field input[type=password]:disabled + label {
+.input-field input[type=password]:disabled + label,
+.input-field textarea:disabled + label {
   transform: translateY(-17px);
   font-size: 15px;
   color: #3498db;
@@ -1307,9 +1308,18 @@ textarea {
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
 }
+.input-field textarea:disabled {
+  border-bottom: 2px solid #3498db;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+}
 .input-field input[type=text],
 .input-field input[type=password],
 .input-field input[type=email],
+.input-field input[type=file],
 .input-field textarea {
   background-color: transparent;
   border: none;
@@ -1336,16 +1346,19 @@ textarea {
   color: #34495e;
   border-bottom: 2px solid silver;
 }
+.input-field input[type=file] {
+  cursor: pointer;
+  margin-top: 10px;
+}
 .input-field textarea {
   width: 100%;
   background-color: transparent;
   line-height: 20px;
   overflow-y: auto !important;
-  /* prevents scroll bar flash */
-  padding: 0.8rem 0 0.8rem 0;
-  /* prevents text jump on Enter keypress */
+  resize: none !important;
+  padding-top: 0px !important;
+  padding-bottom: 5px !important;
   height: auto !important;
-  min-height: 3rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -1364,10 +1377,12 @@ textarea {
 .input-field input[type=text]:focus + label,
 .input-field input[type=email]:focus + label,
 .input-field input[type=password]:focus + label,
+.input-field input[type=file]:focus + label,
 .input-field textarea:focus + label,
 .input-field input[type=text]:valid + label,
 .input-field input[type=email]:valid + label,
 .input-field input[type=password]:valid + label,
+.input-field input[type=file]:valid + label,
 .input-field textarea:valid + label {
   transform: translateY(-17px);
   font-size: 15px;
@@ -1379,12 +1394,17 @@ textarea {
 .input-field input[type=password]:valid,
 .input-field input[type=email]:focus,
 .input-field input[type=email]:valid,
+.input-field input[type=file]:focus,
+.input-field input[type=file]:valid,
 .input-field textarea:focus,
 .input-field textarea:valid {
   border-bottom: 2px solid #3498db;
   transform: scaleX(1);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
+}
+.input-field input[type=file]::-webkit-file-upload-button {
+  display: none;
 }
 
 /*# sourceMappingURL=mini-admin.css.map */
