@@ -1386,6 +1386,7 @@ textarea {
   transition: border 0.3s, -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s, border 0.3s;
   transition: box-shadow 0.3s, border 0.3s, -webkit-box-shadow 0.3s;
+  transition: 1s !important;
 }
 
 input:not([type]):disabled,
@@ -1451,31 +1452,44 @@ input:not([type]):focus:not([readonly]),
 input:not([type]):valid:not([readonly]),
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=text]:not(.browser-default):valid:not([readonly]),
+input[type=text]:not(.browser-default):hover:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):valid:not([readonly]),
+input[type=password]:not(.browser-default):hover:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):valid:not([readonly]),
+input[type=email]:not(.browser-default):hover:not([readonly]),
 input[type=url]:not(.browser-default):focus:not([readonly]),
 input[type=url]:not(.browser-default):valid:not([readonly]),
+input[type=url]:not(.browser-default):hover:not([readonly]),
 input[type=time]:not(.browser-default):focus:not([readonly]),
 input[type=time]:not(.browser-default):valid:not([readonly]),
+input[type=time]:not(.browser-default):hover:not([readonly]),
 input[type=date]:not(.browser-default):focus:not([readonly]),
 input[type=date]:not(.browser-default):valid:not([readonly]),
+input[type=date]:not(.browser-default):hover:not([readonly]),
 input[type=datetime]:not(.browser-default):focus:not([readonly]),
 input[type=datetime]:not(.browser-default):valid:not([readonly]),
+input[type=datetime]:not(.browser-default):hover:not([readonly]),
 input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
 input[type=datetime-local]:not(.browser-default):valid:not([readonly]),
+input[type=datetime-local]:not(.browser-default):hover:not([readonly]),
 input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=tel]:not(.browser-default):valid:not([readonly]),
+input[type=tel]:not(.browser-default):hover:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):valid:not([readonly]),
+input[type=number]:not(.browser-default):hover:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):valid:not([readonly]),
+input[type=search]:not(.browser-default):hover:not([readonly]),
 textarea:focus:not([readonly]),
+textarea:hover:not([readonly]),
 textarea:valid:not([readonly]) {
   border-bottom: 1px solid #3498db;
   -webkit-box-shadow: 0 1px 0 0 #3498db;
   box-shadow: 0 1px 0 0 #3498db;
+  transition: 1s !important;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -1494,6 +1508,23 @@ textarea:focus:not([readonly]) + label {
   transform: translateY(-17px) !important;
   font-size: 15px;
   color: #3498db;
+}
+
+input:not([type]):hover:not([readonly]) + label,
+input[type=text]:not(.browser-default):hover:not([readonly]) + label,
+input[type=password]:not(.browser-default):hover:not([readonly]) + label,
+input[type=email]:not(.browser-default):hover:not([readonly]) + label,
+input[type=url]:not(.browser-default):hover:not([readonly]) + label,
+input[type=time]:not(.browser-default):hover:not([readonly]) + label,
+input[type=date]:not(.browser-default):hover:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):hover:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):hover:not([readonly]) + label,
+input[type=tel]:not(.browser-default):hover:not([readonly]) + label,
+input[type=number]:not(.browser-default):hover:not([readonly]) + label,
+input[type=search]:not(.browser-default):hover:not([readonly]) + label,
+textarea:hover:not([readonly]) + label {
+  color: #3498db;
+  transition: 1s !important;
 }
 
 input:not([type]):valid ~ label,
