@@ -152,7 +152,7 @@
 
                 <div class="col-md-12">
                   <form class="form" method="post">
-                    <div class="input-field">
+                    <div class="input-field mb-5">
                       <input type="file" name="name" required>
                       <label class="text-grey">Choose file</label>
                     </div>
@@ -191,30 +191,16 @@
 
                   <div class="col-md-12">
                     <div class="input-field">
-                      <textarea name="message" required></textarea>
-                      <label class="text-grey">Message</label>
-
-                      <script>
-                        var tx = document.getElementsByTagName('textarea');
-                        for (var i = 0; i < tx.length; i++) {
-                          tx[i].setAttribute('style', 'height:' + (tx[i].scrollHeight) +
-                            'px;overflow-y:hidden; max-height: auto;');
-                          tx[i].addEventListener("input", OnInput, false);
-                        }
-
-                        function OnInput() {
-                          this.style.height = 'auto';
-                          this.style.height = (this.scrollHeight) + 'px';
-                        }
-                      </script>
-
+                      <input name="name" type="email" required>
+                      <label class="text-grey">Email</label>
+                      <div class="helper-text text-grey" data-error="wrong" data-success="right">Helper text</div>
                     </div>
                   </div>
 
                   <div class="col-md-12">
                     <div class="input-field">
-                      <input type="password" name="name" required>
-                      <label class="text-grey">Password</label>
+                      <textarea name="message" required></textarea>
+                      <label class="text-grey">Message</label>
                     </div>
                   </div>
 
