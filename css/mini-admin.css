@@ -1415,8 +1415,8 @@ input[type=search]:not(.browser-default):disabled,
 input[type=search]:not(.browser-default)[readonly=readonly],
 textarea:disabled,
 textarea[readonly=readonly] {
-  color: rgba(0, 0, 0, 0.42);
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+  border-bottom: 1px solid #3498db;
+  cursor: not-allowed;
 }
 
 input:not([type]):disabled + label,
@@ -1445,7 +1445,9 @@ input[type=search]:not(.browser-default):disabled + label,
 input[type=search]:not(.browser-default)[readonly=readonly] + label,
 textarea:disabled + label,
 textarea[readonly=readonly] + label {
-  color: rgba(0, 0, 0, 0.42);
+  transform: translateY(-17px) !important;
+  font-size: 15px;
+  color: #3498db;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -1805,7 +1807,10 @@ textarea {
 .input-field.inline {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 5px;
+  margin-right: 20px;
+}
+.input-field.inline span {
+  padding-left: 25px !important;
 }
 
 .input-field.inline input,

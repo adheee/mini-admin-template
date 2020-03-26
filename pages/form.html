@@ -184,16 +184,54 @@
 
                   <div class="col-md-6">
                     <div class="input-field">
-                      <input disabled value="I am not editable" type="text" name="name" required>
-                      <label class="text-grey">Text Disabled</label>
+                      <input disabled value="I am not editable" id="disabled" type="text">
+                      <label for="disabled">Disabled</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="input-field inline">
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Red</span>
+                        </label>
+                      </p>
+                    </div>
+
+                    <div class="input-field inline">
+                      <p>
+                        <label>
+                          <input type="checkbox" class="filled-in" checked="checked" />
+                          <span>Filled in</span>
+                        </label>
+                      </p>
+                    </div>
+
+                    <div class="input-field inline">
+                      <p>
+                        <label>
+                          <input type="checkbox" checked="checked" disabled="disabled" />
+                          <span>Green</span>
+                        </label>
+                      </p>
+                    </div>
+
+                    <div class="input-field inline">
+                      <p>
+                        <label>
+                          <input type="checkbox" disabled="disabled" />
+                          <span>Brown</span>
+                        </label>
+                      </p>
                     </div>
                   </div>
 
                   <div class="col-md-12">
                     <div class="input-field">
-                      <input name="name" type="email" required>
-                      <label class="text-grey">Email</label>
-                      <div class="helper-text text-grey" data-error="wrong" data-success="right">Helper text</div>
+                      <input id="email_inline" type="email" required>
+                      <label for="email_inline">Email</label>
+                      <span class="helper-text" data-error="wrong" data-success="right"></span>
                     </div>
                   </div>
 
