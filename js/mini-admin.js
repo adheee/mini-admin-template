@@ -1,3 +1,8 @@
+// select
+$(document).ready(function () {
+  $('select').niceSelect();
+});
+
 // textarea
 var tx = document.getElementsByTagName('textarea');
 for (var i = 0; i < tx.length; i++) {

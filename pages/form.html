@@ -189,7 +189,8 @@
                     </div>
                   </div>
 
-                  <div class="col-md-12">
+                  <div class="col-md-12 mt-4">
+                    <h6>Checkbox form :</h6>
                     <div class="input-field inline">
                       <p>
                         <label>
@@ -220,11 +221,12 @@
                   </div>
 
                   <div class="col-md-12">
+                    <h6>Radio button :</h6>
                     <div class="input-field inline">
                       <p>
                         <label>
                           <input type="radio" name="radio1" checked="checked" />
-                          <span>Default checkbox</span>
+                          <span>Default</span>
                         </label>
                       </p>
                     </div>
@@ -233,7 +235,7 @@
                       <p>
                         <label>
                           <input type="radio" class="with-gap" name="radio1" />
-                          <span>Filled in</span>
+                          <span>With-gap</span>
                         </label>
                       </p>
                     </div>
@@ -241,32 +243,34 @@
                     <div class="input-field inline">
                       <p>
                         <label>
-                          <input type="radio" checked="checked" disabled="disabled" />
-                          <span>Disabled checkout</span>
+                          <input type="radio" disabled="disabled" />
+                          <span>Disabled</span>
                         </label>
                       </p>
                     </div>
 
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="input-field">
-                      <input id="email_inline" type="email" required>
-                      <label for="email_inline">Email</label>
-                      <span class="helper-text" data-error="wrong" data-success="right"></span>
+                    <div class="input-field inline">
+                      <p>
+                        <label>
+                          <input type="radio" class="with-gap" checked="checked" disabled="disabled" />
+                          <span>Disabled with-gap</span>
+                        </label>
+                      </p>
                     </div>
                   </div>
 
                   <div class="col-md-12">
                     <div class="input-field">
-                      <textarea name="message" required></textarea>
-                      <label class="text-grey">Message</label>
+                      <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                      </select>
+                      <!-- <label>Materialize Select</label> -->
                     </div>
                   </div>
 
-                  <div class="col-md-12">
-                    <button class="btn btn-lg btn-block btn-gradient-soft-green">Register</button>
-                  </div>
                 </div>
               </form>
             </div>
@@ -301,6 +305,7 @@
 
 
   <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/jquery.nice-select.js"></script>
   <script src="../js/Chart.js"></script>
   <script src="../js/mini-admin.js"></script>
   <script src="../js/bootstrap.min.js"></script>
