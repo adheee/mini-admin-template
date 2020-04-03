@@ -133,6 +133,9 @@ footer {
   text-decoration: none solid white;
   text-align: left;
   text-indent: 0px;
+}
+
+.card-img {
   position: relative;
   overflow: hidden;
 }
@@ -1289,20 +1292,22 @@ button {
   height: auto;
 }
 
+label {
+  background-color: white !important;
+}
+
 .nice-select {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #fff;
-  border-radius: 5px;
-  border: solid 1px #e8e8e8;
+  border: none !important;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
   display: block;
   float: left;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
-  height: 42px;
   line-height: 40px;
   outline: none;
   padding-left: 18px;
@@ -1313,12 +1318,16 @@ button {
   user-select: none;
   white-space: nowrap;
   width: auto;
-}
-.nice-select:hover {
-  border-color: #dbdbdb;
-}
-.nice-select:active, .nice-select.open, .nice-select:focus {
-  border-color: #999;
+  background-color: transparent !important;
+  width: 100% !important;
+  padding: 5px !important;
+  border: none !important;
+  color: #3498db !important;
+  border-bottom: 1px solid silver !important;
+  outline: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 2rem;
+  transition: 1s !important;
 }
 .nice-select:after {
   border-bottom: 2px solid #999;
@@ -1345,8 +1354,8 @@ button {
   transform: scale(1) translateY(0);
 }
 .nice-select.disabled {
-  border-color: #ededed;
-  color: #999;
+  border-color: silver;
+  color: silver;
   pointer-events: none;
 }
 .nice-select.disabled:after {
@@ -1375,27 +1384,22 @@ button {
   height: 4px;
   width: 4px;
 }
-.nice-select.small .option {
-  line-height: 34px;
-  min-height: 34px;
-}
 .nice-select .list {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
   box-sizing: border-box;
-  margin-top: 4px;
+  margin-top: -30px !important;
   opacity: 0;
-  overflow: hidden;
   padding: 0;
   pointer-events: none;
-  position: absolute;
-  top: 100%;
   left: 0;
   transform-origin: 50% 0;
   transform: scale(0.75) translateY(-21px);
   transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
-  z-index: 9;
+  position: absolute;
+  width: 100%;
+  z-index: 999 !important;
 }
 .nice-select .list:hover .option:not(:hover) {
   background-color: transparent !important;
@@ -1411,12 +1415,14 @@ button {
   padding-right: 29px;
   text-align: left;
   transition: all 0.2s;
+  position: relative;
+  display: block;
+  z-index: 999 !important;
 }
-.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
-  background-color: #f6f6f6;
-}
-.nice-select .option.selected {
-  font-weight: bold;
+.nice-select .option:hover {
+  background-color: #3498db;
+  color: white;
+  transition: 1s !important;
 }
 .nice-select .option.disabled {
   background-color: transparent;
@@ -1644,10 +1650,13 @@ input[type=search]:not(.browser-default):valid:not([readonly]),
 input[type=search]:not(.browser-default):hover:not([readonly]),
 textarea:focus:not([readonly]),
 textarea:hover:not([readonly]),
-textarea:valid:not([readonly]) {
-  border-bottom: 1px solid #3498db;
-  -webkit-box-shadow: 0 1px 0 0 #3498db;
-  box-shadow: 0 1px 0 0 #3498db;
+textarea:valid:not([readonly]),
+.nice-select:focus:not([readonly]),
+.nice-select:hover:not([readonly]),
+select:valid:not([readonly]) {
+  border-bottom: 1px solid #3498db !important;
+  -webkit-box-shadow: 0 1px 0 0 #3498db !important;
+  box-shadow: 0 1px 0 0 #3498db !important;
   transition: 1s !important;
 }
 
@@ -1663,7 +1672,8 @@ input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
 input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
-textarea:focus:not([readonly]) + label {
+textarea:focus:not([readonly]) + label,
+select:focus:not([readonly]) + label {
   transform: translateY(-17px) !important;
   font-size: 15px;
   color: #3498db;
@@ -1957,8 +1967,7 @@ textarea {
 
 .input-field {
   position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .input-field.inline {
@@ -2586,8 +2595,5 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 .switch label input[type=checkbox][disabled]:checked + .lever:after {
   background-color: #949494;
 }
-
-/* Select Field
-   ========================================================================== */
 
 /*# sourceMappingURL=mini-admin.css.map */

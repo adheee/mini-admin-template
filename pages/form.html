@@ -2,296 +2,302 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- css -->
-  <link rel="stylesheet" href="../css/themify-icons.css">
-  <link rel="stylesheet" href="../css/ie7.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/mini-admin.css">
-  <!-- end css -->
-  <title>Dashboard | mini-admin</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- css -->
+ <link rel="stylesheet" href="../css/themify-icons.css">
+ <link rel="stylesheet" href="../css/ie7.css">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../css/mini-admin.css">
+ <!-- end css -->
+ <title>Dashboard | mini-admin</title>
 </head>
 
 <body>
-  <!-- navbar -->
-  <div class="fixed-top">
-    <nav class="navbar navbar-expand-lg bg-dark" id="navbar-top">
-      <div class="container">
-        <a class="navbar-brand text-white" href="#">Mini-Admin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+ <!-- navbar -->
+ <div class="fixed-top">
+  <nav class="navbar navbar-expand-lg bg-dark" id="navbar-top">
+   <div class="container">
+    <a class="navbar-brand text-white" href="#">Mini-Admin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hover-orange text-dark-menu" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Admin
-              </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-dark-menu hover-orange" href="#">Your dashboard</a>
-                <a class="dropdown-item text-dark-menu hover-orange" href="#">Logout</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-mini navbar-expand-lg bg-dark">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link text-dark-menu hover-orange" href="../index.html">Dashboard</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-dark-menu hover-orange" href="./gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-dark-menu hover-orange" href="./form.html">Form</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark-menu hover-orange" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                UI Elements
-              </a>
-              <div class="dropdown-menu bg-dark hover-orange" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-dark-menu hover-orange" href="./ui-element/color.html">Colors</a>
-                <a class="dropdown-item text-dark-menu hover-orange" href="./ui-element/button.html">Buttons</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark-menu hover-orange" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Table
-              </a>
-              <div class="dropdown-menu bg-dark hover-orange" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-dark-menu hover-orange" href="./table/simpletable.html">Simple Tables</a>
-                <a class="dropdown-item text-dark-menu hover-orange" href="#">DataTables</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- end navbar -->
-
-  <div class="container content">
-    <!-- breadcrumb -->
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="mr-auto">
-          <h3 class="text-dark">Form</h3>
-        </li>
-        <li class="breadcrumb-item ml-auto">
-          <a href="#" class="text-blue">Home</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">Form</li>
-      </ol>
-    </nav>
-    <hr>
-    <!-- end breadcrumb -->
-
-    <!-- dashboard content -->
-    <section>
-
-      <div class="row">
-
-        <div class="col-md-6">
-          <div class="card card-without-shadow">
-            <div class="card-header bg-blue-gradient">
-              <h5>Quick Example</h5>
-            </div>
-            <div class="card-body">
-              <div class="row mt-3">
-                <div class="col-md-6">
-                  <form class="form" method="post">
-                    <div class="input-field">
-                      <input type="text" name="name" required>
-                      <label class="text-grey">First Name</label>
-                    </div>
-                  </form>
-                </div>
-
-                <div class="col-md-6">
-                  <form class="form" method="post">
-                    <div class="input-field">
-                      <input type="text" name="name" required>
-                      <label class="text-grey">Last Name</label>
-                    </div>
-                  </form>
-                </div>
-
-                <div class="col-md-12">
-                  <form class="form" method="post">
-                    <div class="input-field">
-                      <input type="email" name="name" required>
-                      <label class="text-grey">Email</label>
-                    </div>
-                  </form>
-                </div>
-
-                <div class="col-md-12">
-                  <form class="form" method="post">
-                    <div class="input-field">
-                      <input type="password" name="name" required>
-                      <label class="text-grey">Password</label>
-                    </div>
-                  </form>
-                </div>
-
-                <div class="col-md-12">
-                  <form class="form" method="post">
-                    <div class="input-field mb-5">
-                      <input type="file" name="name" required>
-                      <label class="text-grey">Choose file</label>
-                    </div>
-                  </form>
-                </div>
-
-                <div class="col-md-12">
-                  <button class="btn btn-lg btn-block btn-gradient-soft-green">Register</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="card card-without-shadow">
-            <div class="card-header bg-red-gradient">
-              <h5>General Elements</h5>
-            </div>
-            <div class="card-body">
-              <form action="POST">
-                <div class="row mt-3">
-                  <div class="col-md-6">
-                    <div class="input-field">
-                      <input type="text" name="name" required>
-                      <label class="text-grey">Text</label>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="input-field">
-                      <input disabled value="I am not editable" id="disabled" type="text">
-                      <label for="disabled">Disabled</label>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12 mt-4">
-                    <h6>Checkbox form :</h6>
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="checkbox" />
-                          <span>Default checkbox</span>
-                        </label>
-                      </p>
-                    </div>
-
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="checkbox" class="filled-in" checked="checked" />
-                          <span>Filled in</span>
-                        </label>
-                      </p>
-                    </div>
-
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="checkbox" checked="checked" disabled="disabled" />
-                          <span>Disabled checkout</span>
-                        </label>
-                      </p>
-                    </div>
-
-                  </div>
-
-                  <div class="col-md-12">
-                    <h6>Radio button :</h6>
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="radio" name="radio1" checked="checked" />
-                          <span>Default</span>
-                        </label>
-                      </p>
-                    </div>
-
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="radio" class="with-gap" name="radio1" />
-                          <span>With-gap</span>
-                        </label>
-                      </p>
-                    </div>
-
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="radio" disabled="disabled" />
-                          <span>Disabled</span>
-                        </label>
-                      </p>
-                    </div>
-
-                    <div class="input-field inline">
-                      <p>
-                        <label>
-                          <input type="radio" class="with-gap" checked="checked" disabled="disabled" />
-                          <span>Disabled with-gap</span>
-                        </label>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="input-field">
-                      <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                      <!-- <label>Materialize Select</label> -->
-                    </div>
-                  </div>
-
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- end dashboard content -->
-  </div>
-
-  <footer class="bg-dark">
-    <div class="container text-dark-menu">
-      <strong>Copyright &copy; Mini-Admin.</strong>
-      All rights reserved.
-      <div class="float-right d-none d-sm-inline-block">
-        <b>Adhe Pratama</b>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle hover-orange text-dark-menu" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Admin
+       </a>
+       <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item text-dark-menu hover-orange" href="#">Your dashboard</a>
+        <a class="dropdown-item text-dark-menu hover-orange" href="#">Logout</a>
+       </div>
+      </li>
+     </ul>
     </div>
-  </footer>
+   </div>
+  </nav>
+  <nav class="navbar navbar-mini navbar-expand-lg bg-dark">
+   <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+       <a class="nav-link text-dark-menu hover-orange" href="../index.html">Dashboard</a>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link text-dark-menu hover-orange" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link text-dark-menu hover-orange" href="./form.html">Form</a>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle text-dark-menu hover-orange" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        UI Elements
+       </a>
+       <div class="dropdown-menu bg-dark hover-orange" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item text-dark-menu hover-orange" href="./ui-element/color.html">Colors</a>
+        <a class="dropdown-item text-dark-menu hover-orange" href="./ui-element/button.html">Buttons</a>
+       </div>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle text-dark-menu hover-orange" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Table
+       </a>
+       <div class="dropdown-menu bg-dark hover-orange" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item text-dark-menu hover-orange" href="./table/simpletable.html">Simple Tables</a>
+        <a class="dropdown-item text-dark-menu hover-orange" href="#">DataTables</a>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+ </div>
+ <!-- end navbar -->
+
+ <div class="container content">
+  <!-- breadcrumb -->
+  <nav aria-label="breadcrumb">
+   <ol class="breadcrumb">
+    <li class="mr-auto">
+     <h3 class="text-dark">Form</h3>
+    </li>
+    <li class="breadcrumb-item ml-auto">
+     <a href="#" class="text-blue">Home</a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Form</li>
+   </ol>
+  </nav>
+  <hr>
+  <!-- end breadcrumb -->
+
+  <!-- dashboard content -->
+  <section>
+
+   <div class="row">
+
+    <div class="col-md-6">
+     <div class="card card-without-shadow">
+      <div class="card-header bg-blue-gradient">
+       <h5>Quick Example</h5>
+      </div>
+      <div class="card-body">
+       <div class="row mt-3">
+        <div class="col-md-6">
+         <form class="form" method="post">
+          <div class="input-field">
+           <input type="text" name="name" required>
+           <label class="text-grey">First Name</label>
+          </div>
+         </form>
+        </div>
+
+        <div class="col-md-6">
+         <form class="form" method="post">
+          <div class="input-field">
+           <input type="text" name="name" required>
+           <label class="text-grey">Last Name</label>
+          </div>
+         </form>
+        </div>
+
+        <div class="col-md-12">
+         <form class="form" method="post">
+          <div class="input-field">
+           <input type="email" name="name" required>
+           <label class="text-grey">Email</label>
+          </div>
+         </form>
+        </div>
+
+        <div class="col-md-12">
+         <form class="form" method="post">
+          <div class="input-field">
+           <input type="password" name="name" required>
+           <label class="text-grey">Password</label>
+          </div>
+         </form>
+        </div>
+
+        <div class="col-md-12">
+         <form class="form" method="post">
+          <div class="input-field mb-5">
+           <input type="file" name="name" required>
+           <label class="text-grey">Choose file</label>
+          </div>
+         </form>
+        </div>
+
+        <div class="col-md-12">
+         <button class="btn btn-lg btn-block btn-gradient-soft-green">Register</button>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-6">
+     <div class="card card-without-shadow">
+      <div class="card-header bg-red-gradient">
+       <h5>General Elements</h5>
+      </div>
+      <div class="card-body">
+       <form action="POST">
+        <div class="row mt-3">
+         <div class="col-md-6">
+          <div class="input-field">
+           <input type="text" name="name" required>
+           <label class="text-grey">Text</label>
+          </div>
+         </div>
+
+         <div class="col-md-6">
+          <div class="input-field">
+           <input disabled value="I am not editable" id="disabled" type="text">
+           <label for="disabled">Disabled</label>
+          </div>
+         </div>
+
+         <div class="col-md-12">
+          <div class="input-field">
+           <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+           </select>
+          </div>
+         </div>
+
+         <div class="col-md-12">
+          <div class="input-field">
+           <textarea name="" required></textarea>
+           <label class="text-gray">Description</label>
+          </div>
+         </div>
+
+         <div class="col-md-12 mt-4">
+          <h6 class="mb-2">Checkbox form :</h6>
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" />
+             <span>Default checkbox</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" class="filled-in" checked="checked" />
+             <span>Filled in</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" checked="checked" disabled="disabled" />
+             <span>Disabled checkout</span>
+            </label>
+           </p>
+          </div>
+
+         </div>
+
+         <div class="col-md-12">
+          <h6 class="mb-2">Radio button :</h6>
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" name="radio1" checked="checked" />
+             <span>Default</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" class="with-gap" name="radio1" />
+             <span>With-gap</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" disabled="disabled" />
+             <span>Disabled</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" class="with-gap" checked="checked" disabled="disabled" />
+             <span>Disabled with-gap</span>
+            </label>
+           </p>
+          </div>
+         </div>
+
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+
+   </div>
+
+  </section>
+  <!-- end dashboard content -->
+ </div>
+
+ <footer class="bg-dark">
+  <div class="container text-dark-menu">
+   <strong>Copyright &copy; Mini-Admin.</strong>
+   All rights reserved.
+   <div class="float-right d-none d-sm-inline-block">
+    <b>Adhe Pratama</b>
+   </div>
+  </div>
+ </footer>
 
 
 
@@ -304,11 +310,11 @@
 
 
 
-  <script src="../js/jquery-3.4.1.min.js"></script>
-  <script src="../js/jquery.nice-select.js"></script>
-  <script src="../js/Chart.js"></script>
-  <script src="../js/mini-admin.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
+ <script src="../js/jquery-3.4.1.min.js"></script>
+ <script src="../js/jquery.nice-select.js"></script>
+ <script src="../js/Chart.js"></script>
+ <script src="../js/mini-admin.js"></script>
+ <script src="../js/bootstrap.min.js"></script>
 
 </body>
 

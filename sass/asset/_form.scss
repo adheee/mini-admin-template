@@ -219,10 +219,13 @@ input[type=search]:not(.browser-default):valid:not([readonly]),
 input[type=search]:not(.browser-default):hover:not([readonly]),
 textarea:focus:not([readonly]),
 textarea:hover:not([readonly]),
-textarea:valid:not([readonly]) {
-  border-bottom: 1px solid $blue;
-  -webkit-box-shadow: 0 1px 0 0 $blue;
-  box-shadow: 0 1px 0 0 $blue;
+textarea:valid:not([readonly]),
+.nice-select:focus:not([readonly]),
+.nice-select:hover:not([readonly]),
+select:valid:not([readonly]) {
+  border-bottom: 1px solid $blue !important;
+  -webkit-box-shadow: 0 1px 0 0 $blue !important;
+  box-shadow: 0 1px 0 0 $blue !important;
   transition: 1s !important;
 }
 
@@ -238,7 +241,8 @@ input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
 input[type=tel]:not(.browser-default):focus:not([readonly])+label,
 input[type=number]:not(.browser-default):focus:not([readonly])+label,
 input[type=search]:not(.browser-default):focus:not([readonly])+label,
-textarea:focus:not([readonly])+label {
+textarea:focus:not([readonly])+label,
+select:focus:not([readonly])+label {
   transform: translateY(-17px) !important;
   font-size: 15px;
   color: $blue;
@@ -532,8 +536,7 @@ textarea {
 
 .input-field {
   position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .input-field.inline {
@@ -1164,18 +1167,3 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever::before {
 .switch label input[type=checkbox][disabled]:checked+.lever:after {
   background-color: #949494;
 }
-
-/* Select Field
-   ========================================================================== */
-// select {
-//   background-color: transparent;
-//   width: 100%;
-//   padding: 5px;
-//   border: none;
-//   border-radius: 2px;
-//   height: 3rem;
-//   color: $grey;
-//   border-bottom: 1px solid $grey;
-//   outline: none;
-//   line-height: 20px !important;
-// }
