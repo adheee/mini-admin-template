@@ -1354,9 +1354,9 @@ label {
   transform: scale(1) translateY(0);
 }
 .nice-select.disabled {
-  border-color: silver;
-  color: silver;
-  pointer-events: none;
+  border-bottom: 1px solid #3498db !important;
+  color: #34495e !important;
+  cursor: not-allowed !important;
 }
 .nice-select.disabled:after {
   border-color: #cccccc;
@@ -1963,6 +1963,7 @@ textarea.materialize-textarea + label:after,
 textarea {
   resize: none !important;
   padding-top: 2px !important;
+  padding-bottom: 0px !important;
 }
 
 .input-field {

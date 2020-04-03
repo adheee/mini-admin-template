@@ -175,6 +175,7 @@
       <div class="card-body">
        <form action="POST">
         <div class="row mt-3">
+         <!-- text form -->
          <div class="col-md-6">
           <div class="input-field">
            <input type="text" name="name" required>
@@ -188,8 +189,10 @@
            <label for="disabled">Disabled</label>
           </div>
          </div>
+         <!-- end text form -->
 
-         <div class="col-md-12">
+         <!-- select form -->
+         <div class="col-md-6">
           <div class="input-field">
            <select>
             <option value="" disabled selected>Choose your option</option>
@@ -200,12 +203,173 @@
           </div>
          </div>
 
-         <div class="col-md-12">
+         <div class="col-md-6">
+          <div class="input-field">
+           <select disabled>
+            <option value="" disabled>Choose your option</option>
+            <option value="1" selected>Select Disabled</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+           </select>
+          </div>
+         </div>
+         <!-- end select form -->
+
+         <!-- textarea -->
+         <div class="col-md-6 mt-3">
           <div class="input-field">
            <textarea name="" required></textarea>
            <label class="text-gray">Description</label>
           </div>
          </div>
+
+         <div class="col-md-6 mt-3">
+          <div class="input-field">
+           <textarea name="" required disabled>textarea disabled</textarea>
+           <label class="text-gray">Description</label>
+          </div>
+         </div>
+         <!-- end textarea -->
+
+         <div class="col-md-12 mt-4">
+          <h6 class="mb-2">Checkbox form :</h6>
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" />
+             <span>Default checkbox</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" class="filled-in" checked="checked" />
+             <span>Filled in</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="checkbox" checked="checked" disabled="disabled" />
+             <span>Disabled checkout</span>
+            </label>
+           </p>
+          </div>
+
+         </div>
+
+         <div class="col-md-12">
+          <h6 class="mb-2">Radio button :</h6>
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" name="radio1" checked="checked" />
+             <span>Default</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" class="with-gap" name="radio1" />
+             <span>With-gap</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" disabled="disabled" />
+             <span>Disabled</span>
+            </label>
+           </p>
+          </div>
+
+          <div class="input-field inline">
+           <p>
+            <label>
+             <input type="radio" class="with-gap" checked="checked" disabled="disabled" />
+             <span>Disabled with-gap</span>
+            </label>
+           </p>
+          </div>
+         </div>
+
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-6">
+     <div class="card card-without-shadow">
+      <div class="card-header bg-red-gradient">
+       <h5>General Elements</h5>
+      </div>
+      <div class="card-body">
+       <form action="POST">
+        <div class="row mt-3">
+         <!-- text form -->
+         <div class="col-md-6">
+          <div class="input-field">
+           <input type="text" name="name" required>
+           <label class="text-grey">Text</label>
+          </div>
+         </div>
+
+         <div class="col-md-6">
+          <div class="input-field">
+           <input disabled value="I am not editable" id="disabled" type="text">
+           <label for="disabled">Disabled</label>
+          </div>
+         </div>
+         <!-- end text form -->
+
+         <!-- select form -->
+         <div class="col-md-6">
+          <div class="input-field">
+           <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+           </select>
+          </div>
+         </div>
+
+         <div class="col-md-6">
+          <div class="input-field">
+           <select disabled>
+            <option value="" disabled>Choose your option</option>
+            <option value="1" selected>Select Disabled</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+           </select>
+          </div>
+         </div>
+         <!-- end select form -->
+
+         <!-- textarea -->
+         <div class="col-md-6 mt-3">
+          <div class="input-field">
+           <textarea name="" required></textarea>
+           <label class="text-gray">Description</label>
+          </div>
+         </div>
+
+         <div class="col-md-6 mt-3">
+          <div class="input-field">
+           <textarea name="" required disabled>textarea disabled</textarea>
+           <label class="text-gray">Description</label>
+          </div>
+         </div>
+         <!-- end textarea -->
 
          <div class="col-md-12 mt-4">
           <h6 class="mb-2">Checkbox form :</h6>

@@ -86,9 +86,9 @@ label {
   }
 
   &.disabled {
-    border-color: $grey;
-    color: $grey;
-    pointer-events: none;
+    border-bottom: 1px solid $blue !important;
+    color: $dark !important;
+    cursor: not-allowed !important;
 
     &:after {
       border-color: lighten($arrow_color, 20%);
