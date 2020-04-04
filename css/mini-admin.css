@@ -1691,8 +1691,21 @@ input[type=datetime-local]:not(.browser-default):hover:not([readonly]) + label,
 input[type=tel]:not(.browser-default):hover:not([readonly]) + label,
 input[type=number]:not(.browser-default):hover:not([readonly]) + label,
 input[type=search]:not(.browser-default):hover:not([readonly]) + label,
-textarea:hover:not([readonly]) + label {
-  color: #3498db;
+textarea:hover:not([readonly]) + label,
+input:not([type]):hover:not([readonly]) ~ i,
+input[type=text]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=password]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=email]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=url]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=time]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=date]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=datetime]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=datetime-local]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=tel]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=number]:not(.browser-default):hover:not([readonly]) ~ i,
+input[type=search]:not(.browser-default):hover:not([readonly]) ~ i,
+textarea:hover:not([readonly]) ~ i {
+  color: #3498db !important;
   transition: 1s !important;
 }
 
@@ -1969,6 +1982,25 @@ textarea {
 .input-field {
   position: relative;
   margin-bottom: 2rem;
+}
+
+.with-icon {
+  display: flex !important;
+}
+.with-icon input {
+  padding-left: 45px !important;
+}
+.with-icon i {
+  font-size: 25px !important;
+  padding-right: 20px;
+  padding-bottom: 0;
+  transform: translateY(10px);
+  font-weight: 600;
+  position: absolute;
+  transition: 1s !important;
+}
+.with-icon label {
+  margin-left: 45px;
 }
 
 .input-field.inline {
