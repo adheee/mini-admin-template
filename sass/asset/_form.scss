@@ -278,6 +278,23 @@ textarea:hover:not([readonly])~i {
   transition: 1s !important;
 }
 
+input:not([type]):focus:not([readonly])~i,
+input[type=text]:not(.browser-default):focus:not([readonly])~i,
+input[type=password]:not(.browser-default):focus:not([readonly])~i,
+input[type=email]:not(.browser-default):focus:not([readonly])~i,
+input[type=url]:not(.browser-default):focus:not([readonly])~i,
+input[type=time]:not(.browser-default):focus:not([readonly])~i input[type=date]:not(.browser-default):focus:not([readonly])~i,
+input[type=datetime]:not(.browser-default):focus:not([readonly])~i,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])~i,
+input[type=tel]:not(.browser-default):focus:not([readonly])~i,
+input[type=number]:not(.browser-default):focus:not([readonly])~i,
+input[type=search]:not(.browser-default):focus:not([readonly])~i,
+textarea:focus:not([readonly])~i,
+select:focus:not([readonly])~i {
+  color: $blue;
+  transition: 1s !important;
+}
+
 input:not([type]):valid~label,
 input[type=text]:not(.browser-default):valid~label,
 input[type=password]:not(.browser-default):valid~label,
@@ -293,6 +310,22 @@ input[type=search]:not(.browser-default):valid~label,
 textarea:valid~label {
   transform: translateY(-17px) !important;
   font-size: 15px;
+  color: $blue;
+}
+
+input:not([type]):valid~i,
+input[type=text]:not(.browser-default):valid~i,
+input[type=password]:not(.browser-default):valid~i,
+input[type=email]:not(.browser-default):valid~i,
+input[type=url]:not(.browser-default):valid~i,
+input[type=time]:not(.browser-default):valid~i,
+input[type=date]:not(.browser-default):valid~i,
+input[type=datetime]:not(.browser-default):valid~i,
+input[type=datetime-local]:not(.browser-default):valid~i,
+input[type=tel]:not(.browser-default):valid~i,
+input[type=number]:not(.browser-default):valid~i,
+input[type=search]:not(.browser-default):valid~i,
+textarea:valid~i {
   color: $blue;
 }
 
