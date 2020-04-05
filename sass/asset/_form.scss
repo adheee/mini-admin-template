@@ -52,6 +52,14 @@ input[type="file"]:valid {
   transition: transform 0.5s ease-in-out;
 }
 
+input[type="file"]:valid~i {
+  color: $blue !important;
+}
+
+input[type=file]:hover {
+  border-bottom: 2px solid $blue;
+}
+
 
 input[type="file"]::-webkit-file-upload-button {
   display: none;
@@ -260,6 +268,7 @@ input[type=datetime-local]:not(.browser-default):hover:not([readonly])+label,
 input[type=tel]:not(.browser-default):hover:not([readonly])+label,
 input[type=number]:not(.browser-default):hover:not([readonly])+label,
 input[type=search]:not(.browser-default):hover:not([readonly])+label,
+input[type=file]:not(.browser-default):hover:not([readonly])+label,
 textarea:hover:not([readonly])+label,
 input:not([type]):hover:not([readonly])~i,
 input[type=text]:not(.browser-default):hover:not([readonly])~i,
@@ -273,7 +282,9 @@ input[type=datetime-local]:not(.browser-default):hover:not([readonly])~i,
 input[type=tel]:not(.browser-default):hover:not([readonly])~i,
 input[type=number]:not(.browser-default):hover:not([readonly])~i,
 input[type=search]:not(.browser-default):hover:not([readonly])~i,
-textarea:hover:not([readonly])~i {
+input[type=file]:not(.browser-default):hover:not([readonly])~i,
+textarea:hover:not([readonly])~i,
+.nice-select:hover:not([readonly])~i {
   color: $blue !important;
   transition: 1s !important;
 }
@@ -589,8 +600,14 @@ textarea {
 .with-icon {
   display: flex !important;
 
-  input {
+  input,
+  textarea,
+  .nice-select {
     padding-left: 45px !important;
+  }
+
+  input[type=file]~i {
+    transform: translateY(5px);
   }
 
   i {
